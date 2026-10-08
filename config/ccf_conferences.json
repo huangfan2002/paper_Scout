@@ -1,0 +1,5465 @@
+{
+  "metadata": {
+    "version": "CCF 2026 第七版（正式版，2026-04-09 勘误）",
+    "official_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+    "published_on": "2026-03-31",
+    "corrected_on": "2026-04-09",
+    "checked_on": "2026-10-08",
+    "scope": "会议；不包含期刊；正式长文类型仍需核对",
+    "official_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+    "pdf_mirror": "https://raw.githubusercontent.com/LovenSar/CCF_RANK/main/%E7%AC%AC%E4%B8%83%E7%89%88%E4%B8%AD%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%BC%9A%E6%8E%A8%E8%8D%90%E5%9B%BD%E9%99%85%E5%AD%A6%E6%9C%AF%E4%BC%9A%E8%AE%AE%E5%92%8C%E6%9C%9F%E5%88%8A%E7%9B%AE%E5%BD%95%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89-CCF-ABC.pdf",
+    "structured_data_reference": "https://github.com/haozhou-wong/ccf-recommended-list-2026-markdown",
+    "verification": "386 条会议的简称、全称、等级及链接逐项与正式版 PDF 表格核对；每条保留 PDF 页码",
+    "grading_policy": "统一按此目录版本映射；不按论文发表年份追溯历史等级"
+  },
+  "conferences": [
+    {
+      "id": "ccf-01-a-01",
+      "acronym": "PPoPP",
+      "official_acronym": "PPoPP",
+      "name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ppopp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ppopp/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-02",
+      "acronym": "FAST",
+      "official_acronym": "FAST",
+      "name": "USENIX Conference on File and Storage Technologies",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "fast"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fast/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-03",
+      "acronym": "DAC",
+      "official_acronym": "DAC",
+      "name": "Design Automation Conference",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "dac"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/dac/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-04",
+      "acronym": "HPCA",
+      "official_acronym": "HPCA",
+      "name": "IEEE International Symposium on High Performance Computer Architecture",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hpca"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hpca/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-05",
+      "acronym": "MICRO",
+      "official_acronym": "MICRO",
+      "name": "IEEE/ACM International Symposium on Microarchitecture",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "micro"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/micro/index.html",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-06",
+      "acronym": "SC",
+      "official_acronym": "SC",
+      "name": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "sc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sc/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-07",
+      "acronym": "ASPLOS",
+      "official_acronym": "ASPLOS",
+      "name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "asplos"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/asplos/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-08",
+      "acronym": "ISCA",
+      "official_acronym": "ISCA",
+      "name": "International Symposium on Computer Architecture",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "isca"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/isca/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-09",
+      "acronym": "ACM SIGOPS ATC",
+      "official_acronym": "ACM SIGOPS ATC（原 USENIX ATC）",
+      "name": "ACM SIGOPS Annual Technical Conference",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [
+        "ACM SIGOPS ATC（原 USENIX ATC）",
+        "USENIX ATC",
+        "USENIX Annual Technical Conference"
+      ],
+      "dblp_keys": [
+        "usenix",
+        "atc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/usenix/index.html",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-10",
+      "acronym": "EuroSys",
+      "official_acronym": "EuroSys",
+      "name": "European Conference on Computer Systems",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "eurosys"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/eurosys/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-a-11",
+      "acronym": "HPDC",
+      "official_acronym": "HPDC",
+      "name": "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
+      "rank": "A",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hpdc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hpdc/",
+      "source_pdf_page": 5
+    },
+    {
+      "id": "ccf-01-b-01",
+      "acronym": "SoCC",
+      "official_acronym": "SoCC",
+      "name": "ACM Symposium on Cloud Computing",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "cloud"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cloud/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-02",
+      "acronym": "SPAA",
+      "official_acronym": "SPAA",
+      "name": "ACM Symposium on Parallelism in Algorithms and Architectures",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "spaa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/spaa/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-03",
+      "acronym": "PODC",
+      "official_acronym": "PODC",
+      "name": "ACM Symposium on Principles of Distributed Computing",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "podc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/podc/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-04",
+      "acronym": "FPGA",
+      "official_acronym": "FPGA",
+      "name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "fpga"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fpga/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-05",
+      "acronym": "CGO",
+      "official_acronym": "CGO",
+      "name": "The International Symposium on Code Generation and Optimization",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "cgo"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cgo/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-06",
+      "acronym": "DATE",
+      "official_acronym": "DATE",
+      "name": "Design, Automation & Test in Europe",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "date"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/date/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-07",
+      "acronym": "HOT CHIPS",
+      "official_acronym": "HOT CHIPS",
+      "name": "Hot Chips: A Symposium on High Performance Chips",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hotchips"
+      ],
+      "reference_url": "https://dblp.org/db/conf/hotchips/index.html",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-08",
+      "acronym": "CLUSTER",
+      "official_acronym": "CLUSTER",
+      "name": "IEEE International Conference on Cluster Computing",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "cluster"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/cluster/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-09",
+      "acronym": "ICCD",
+      "official_acronym": "ICCD",
+      "name": "International Conference on Computer Design",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "iccd"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iccd/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-10",
+      "acronym": "ICCAD",
+      "official_acronym": "ICCAD",
+      "name": "International Conference on Computer-Aided Design",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "iccad"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iccad/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-11",
+      "acronym": "ICDCS",
+      "official_acronym": "ICDCS",
+      "name": "IEEE International Conference on Distributed Computing Systems",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "icdcs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icdcs/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-12",
+      "acronym": "CODES+ISSS",
+      "official_acronym": "CODES+ISSS",
+      "name": "International Conference on Hardware/Software Co-design and System Synthesis",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "codesisss"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/codesisss/index.html",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-13",
+      "acronym": "HiPEAC",
+      "official_acronym": "HiPEAC",
+      "name": "International Conference on High Performance and Embedded Architectures and Compilers",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hipeac"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hipeac/",
+      "source_pdf_page": 6
+    },
+    {
+      "id": "ccf-01-b-14",
+      "acronym": "SIG-METRICS",
+      "official_acronym": "SIG-METRICS",
+      "name": "International Conference on Measurement and Modeling of Computer Systems",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "sigmetrics"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sigmetrics/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-15",
+      "acronym": "PACT",
+      "official_acronym": "PACT",
+      "name": "International Conference on Parallel Architectures and Compilation Techniques",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "IEEEpact"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/IEEEpact/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-16",
+      "acronym": "ICPP",
+      "official_acronym": "ICPP",
+      "name": "International Conference on Parallel Processing",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "icpp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icpp/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-17",
+      "acronym": "ICS",
+      "official_acronym": "ICS",
+      "name": "International Conference on Supercomputing",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ics"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ics/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-18",
+      "acronym": "VEE",
+      "official_acronym": "VEE",
+      "name": "International Conference on Virtual Execution Environments",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "vee"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/vee/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-19",
+      "acronym": "IPDPS",
+      "official_acronym": "IPDPS",
+      "name": "IEEE International Parallel & Distributed Processing Symposium",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ipps"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ipps/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-20",
+      "acronym": "Performance",
+      "official_acronym": "Performance",
+      "name": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "performance"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/performance/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-21",
+      "acronym": "ITC",
+      "official_acronym": "ITC",
+      "name": "International Test Conference",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "itc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/itc/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-22",
+      "acronym": "LISA",
+      "official_acronym": "LISA",
+      "name": "Large Installation System Administration Conference",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "lisa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/lisa/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-23",
+      "acronym": "MSST",
+      "official_acronym": "MSST",
+      "name": "Mass Storage Systems and Technologies",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "mss"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mss/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-24",
+      "acronym": "RTAS",
+      "official_acronym": "RTAS",
+      "name": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "rtas"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/rtas/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-25",
+      "acronym": "Euro-Par",
+      "official_acronym": "Euro-Par",
+      "name": "European Conference on Parallel and Distributed Computing Springer",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "europar"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/europar/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-b-26",
+      "acronym": "ISCAS",
+      "official_acronym": "ISCAS",
+      "name": "IEEE International Symposium on Circuits and Systems",
+      "rank": "B",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "iscas"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iscas/",
+      "source_pdf_page": 7
+    },
+    {
+      "id": "ccf-01-c-01",
+      "acronym": "CF",
+      "official_acronym": "CF",
+      "name": "ACM International Conference on Computing Frontiers",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "cf"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cf",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-02",
+      "acronym": "SYSTOR",
+      "official_acronym": "SYSTOR",
+      "name": "ACM International Systems and Storage Conference",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "systor"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/systor/index.html",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-03",
+      "acronym": "NOCS",
+      "official_acronym": "NOCS",
+      "name": "ACM/IEEE International Symposium on Networks-on-Chip",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "nocs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/nocs",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-04",
+      "acronym": "ASAP",
+      "official_acronym": "ASAP",
+      "name": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "asap"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/asap",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-05",
+      "acronym": "ASP-DAC",
+      "official_acronym": "ASP-DAC",
+      "name": "Asia and South Pacific Design Automation Conference",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "aspdac"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/aspdac",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-06",
+      "acronym": "ETS",
+      "official_acronym": "ETS",
+      "name": "IEEE European Test Symposium",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ets"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ets/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-07",
+      "acronym": "FPL",
+      "official_acronym": "FPL",
+      "name": "International Conference on Field-Programmable Logic and Applications",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "fpl"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fpl/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-08",
+      "acronym": "FCCM",
+      "official_acronym": "FCCM",
+      "name": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "fccm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fccm/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-09",
+      "acronym": "GLSVLSI",
+      "official_acronym": "GLSVLSI",
+      "name": "Great Lakes Symposium on VLSI",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "glvlsi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/glvlsi/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-10",
+      "acronym": "ATS",
+      "official_acronym": "ATS",
+      "name": "IEEE Asian Test Symposium",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ats"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ats/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-11",
+      "acronym": "HPCC",
+      "official_acronym": "HPCC",
+      "name": "IEEE International Conference on High Performance Computing and Communications",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hpcc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hpcc/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-12",
+      "acronym": "HiPC",
+      "official_acronym": "HiPC",
+      "name": "IEEE International Conference on High Performance Computing, Data and Analytics",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hipc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hipc/index.html",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-13",
+      "acronym": "MASCOTS",
+      "official_acronym": "MASCOTS",
+      "name": "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "mascots"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mascots/",
+      "source_pdf_page": 8
+    },
+    {
+      "id": "ccf-01-c-14",
+      "acronym": "ISPA",
+      "official_acronym": "ISPA",
+      "name": "IEEE International Symposium on Parallel and Distributed Processing with Applications",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ispa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ispa/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-15",
+      "acronym": "CCGRID",
+      "official_acronym": "CCGRID",
+      "name": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ccgrid"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ccgrid/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-16",
+      "acronym": "NPC",
+      "official_acronym": "NPC",
+      "name": "IFIP International Conference on Network and Parallel Computing",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "npc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/npc/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-17",
+      "acronym": "ICA3PP",
+      "official_acronym": "ICA3PP",
+      "name": "International Conference on Algorithms and Architectures for Parallel Processing",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ica3pp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ica3pp/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-18",
+      "acronym": "CASES",
+      "official_acronym": "CASES",
+      "name": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "cases"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cases/index.html",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-19",
+      "acronym": "FPT",
+      "official_acronym": "FPT",
+      "name": "International Conference on Field-Programmable Technology",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "fpt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fpt/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-20",
+      "acronym": "ICPADS",
+      "official_acronym": "ICPADS",
+      "name": "International Conference on Parallel and Distributed Systems",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "icpads"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icpads/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-21",
+      "acronym": "ISLPED",
+      "official_acronym": "ISLPED",
+      "name": "International Symposium on Low Power Electronics and Design",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "islped"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/islped/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-22",
+      "acronym": "ISPD",
+      "official_acronym": "ISPD",
+      "name": "International Symposium on Physical Design",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ispd"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ispd/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-23",
+      "acronym": "HOTI",
+      "official_acronym": "HOTI",
+      "name": "IEEE Symposium on High-Performance Interconnects",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hoti"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hoti/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-24",
+      "acronym": "VTS",
+      "official_acronym": "VTS",
+      "name": "IEEE VLSI Test Symposium",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "vts"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/vts/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-25",
+      "acronym": "ITC-Asia",
+      "official_acronym": "ITC-Asia",
+      "name": "International Test Conference in Asia",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "itc-asia"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/itc-asia/",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-26",
+      "acronym": "SEC",
+      "official_acronym": "SEC",
+      "name": "ACM/IEEE Symposium on Edge Computing",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "ieeesec"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/ieeesec/index.html",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-27",
+      "acronym": "NAS",
+      "official_acronym": "NAS",
+      "name": "International Conference on Networking, Architecture and Storages",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "nas"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/nas/index.html",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-28",
+      "acronym": "HotStorage",
+      "official_acronym": "HotStorage",
+      "name": "HotStorage",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "hotstorage"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/hotstorage/index.html",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-29",
+      "acronym": "APPT",
+      "official_acronym": "APPT",
+      "name": "International Symposium on Advanced Parallel Processing Technology",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [
+        "appt"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/appt/index.html",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-01-c-30",
+      "acronym": "JCC",
+      "official_acronym": "JCC",
+      "name": "International Conference on JointCloud Computing",
+      "rank": "C",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "aliases": [],
+      "dblp_keys": [],
+      "reference_url": "",
+      "source_pdf_page": 9
+    },
+    {
+      "id": "ccf-02-a-01",
+      "acronym": "SIGCOMM",
+      "official_acronym": "SIGCOMM",
+      "name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "rank": "A",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "sigcomm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sigcomm/index.html",
+      "source_pdf_page": 13
+    },
+    {
+      "id": "ccf-02-a-02",
+      "acronym": "MobiCom",
+      "official_acronym": "MobiCom",
+      "name": "ACM International Conference on Mobile Computing and Networking",
+      "rank": "A",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "mobicom"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mobicom/",
+      "source_pdf_page": 13
+    },
+    {
+      "id": "ccf-02-a-03",
+      "acronym": "INFOCOM",
+      "official_acronym": "INFOCOM",
+      "name": "IEEE International Conference on Computer Communications",
+      "rank": "A",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "infocom"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/infocom/",
+      "source_pdf_page": 13
+    },
+    {
+      "id": "ccf-02-a-04",
+      "acronym": "NSDI",
+      "official_acronym": "NSDI",
+      "name": "Symposium on Network System Design and Implementation",
+      "rank": "A",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "nsdi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/nsdi/",
+      "source_pdf_page": 13
+    },
+    {
+      "id": "ccf-02-b-01",
+      "acronym": "SenSys",
+      "official_acronym": "SenSys",
+      "name": "ACM Conference on Embedded Networked Sensor Systems",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "sensys"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sensys/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-02",
+      "acronym": "CoNEXT",
+      "official_acronym": "CoNEXT",
+      "name": "ACM International Conference on Emerging Networking Experiments and Technologies",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "conext"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/conext/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-03",
+      "acronym": "SECON",
+      "official_acronym": "SECON",
+      "name": "IEEE International Conference on Sensing, Communication, and Networking",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "secon"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/secon/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-04",
+      "acronym": "IPSN",
+      "official_acronym": "IPSN",
+      "name": "International Conference on Information Processing in Sensor Networks",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "ipsn"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ipsn/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-05",
+      "acronym": "MobiSys",
+      "official_acronym": "MobiSys",
+      "name": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "mobisys"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mobisys/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-06",
+      "acronym": "ICNP",
+      "official_acronym": "ICNP",
+      "name": "IEEE International Conference on Network Protocols",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "icnp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icnp/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-07",
+      "acronym": "MobiHoc",
+      "official_acronym": "MobiHoc",
+      "name": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "mobihoc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mobihoc/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-08",
+      "acronym": "NOSSDAV",
+      "official_acronym": "NOSSDAV",
+      "name": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "nossdav"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/nossdav/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-09",
+      "acronym": "IWQoS",
+      "official_acronym": "IWQoS",
+      "name": "IEEE/ACM International Workshop on Quality of Service",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "iwqos"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iwqos/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-b-10",
+      "acronym": "IMC",
+      "official_acronym": "IMC",
+      "name": "ACM Internet Measurement Conference",
+      "rank": "B",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "imc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/imc/",
+      "source_pdf_page": 14
+    },
+    {
+      "id": "ccf-02-c-01",
+      "acronym": "ANCS",
+      "official_acronym": "ANCS",
+      "name": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "ancs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ancs/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-02",
+      "acronym": "APNOMS",
+      "official_acronym": "APNOMS",
+      "name": "Asia-Pacific Network Operations and Management Symposium",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "apnoms"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/apnoms/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-03",
+      "acronym": "FORTE",
+      "official_acronym": "FORTE",
+      "name": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "forte"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/forte/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-04",
+      "acronym": "LCN",
+      "official_acronym": "LCN",
+      "name": "IEEE Conference on Local Computer Networks",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "lcn"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/lcn/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-05",
+      "acronym": "GLOBECOM",
+      "official_acronym": "GLOBECOM",
+      "name": "IEEE Global Communications Conference",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "globecom"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/globecom/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-06",
+      "acronym": "ICC",
+      "official_acronym": "ICC",
+      "name": "IEEE International Conference on Communications",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "icc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icc/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-07",
+      "acronym": "ICCCN",
+      "official_acronym": "ICCCN",
+      "name": "IEEE International Conference on Computer Communications and Networks",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "icccn"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icccn/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-08",
+      "acronym": "MASS",
+      "official_acronym": "MASS",
+      "name": "IEEE International Conference on Mobile Adhoc and Sensor Systems",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "mass"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mass/index.html",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-09",
+      "acronym": "P2P",
+      "official_acronym": "P2P",
+      "name": "IEEE International Conference on Peer-to-Peer Computing",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "p2p"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/p2p/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-10",
+      "acronym": "IPCCC",
+      "official_acronym": "IPCCC",
+      "name": "IEEE International Performance Computing and Communications Conference",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "ipccc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ipccc/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-11",
+      "acronym": "WoWMoM",
+      "official_acronym": "WoWMoM",
+      "name": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "wowmom"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wowmom/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-12",
+      "acronym": "ISCC",
+      "official_acronym": "ISCC",
+      "name": "IEEE Symposium on Computers and Communications",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "iscc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iscc/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-13",
+      "acronym": "WCNC",
+      "official_acronym": "WCNC",
+      "name": "IEEE Wireless Communications and Networking Conference",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "wcnc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wcnc/",
+      "source_pdf_page": 15
+    },
+    {
+      "id": "ccf-02-c-14",
+      "acronym": "Networking",
+      "official_acronym": "Networking",
+      "name": "IFIP International Conferences on Networking",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "networking"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/networking/index.html",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-02-c-15",
+      "acronym": "IM",
+      "official_acronym": "IM",
+      "name": "IFIP/IEEE International Symposium on Integrated Network Management",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "im"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/im/index.html",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-02-c-16",
+      "acronym": "MSN",
+      "official_acronym": "MSN",
+      "name": "International Conference on Mobility, Sensing and Networking",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "msn"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/msn/",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-02-c-17",
+      "acronym": "MSWiM",
+      "official_acronym": "MSWiM",
+      "name": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "mswim"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mswim/",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-02-c-18",
+      "acronym": "WASA",
+      "official_acronym": "WASA",
+      "name": "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "wasa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wasa/",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-02-c-19",
+      "acronym": "HotNets",
+      "official_acronym": "HotNets",
+      "name": "ACM The Workshop on Hot Topics in Networks",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "hotnets"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hotnets/",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-02-c-20",
+      "acronym": "APNet",
+      "official_acronym": "APNet",
+      "name": "Asia-Pacific Workshop on Networking",
+      "rank": "C",
+      "domain": "计算机网络",
+      "aliases": [],
+      "dblp_keys": [
+        "apnet"
+      ],
+      "reference_url": "https://dblp.org/db/conf/apnet/index.html",
+      "source_pdf_page": 16
+    },
+    {
+      "id": "ccf-03-a-01",
+      "acronym": "CCS",
+      "official_acronym": "CCS",
+      "name": "ACM Conference on Computer and Communications Security",
+      "rank": "A",
+      "domain": "网络与信息安全",
+      "aliases": [
+        "ACM CCS",
+        "Computer and Communications Security"
+      ],
+      "dblp_keys": [
+        "ccs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ccs/",
+      "source_pdf_page": 20
+    },
+    {
+      "id": "ccf-03-a-02",
+      "acronym": "EUROCRYPT",
+      "official_acronym": "EUROCRYPT",
+      "name": "International Conference on the Theory and Applications of Cryptographic Techniques",
+      "rank": "A",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "eurocrypt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/eurocrypt/",
+      "source_pdf_page": 20
+    },
+    {
+      "id": "ccf-03-a-03",
+      "acronym": "S&P",
+      "official_acronym": "S&P",
+      "name": "IEEE Symposium on Security and Privacy",
+      "rank": "A",
+      "domain": "网络与信息安全",
+      "aliases": [
+        "IEEE S&P",
+        "IEEE SP",
+        "IEEE Security and Privacy"
+      ],
+      "dblp_keys": [
+        "sp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sp/",
+      "source_pdf_page": 20
+    },
+    {
+      "id": "ccf-03-a-04",
+      "acronym": "CRYPTO",
+      "official_acronym": "CRYPTO",
+      "name": "International Cryptology Conference",
+      "rank": "A",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "crypto"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/crypto/",
+      "source_pdf_page": 20
+    },
+    {
+      "id": "ccf-03-a-05",
+      "acronym": "USENIX Security",
+      "official_acronym": "USENIX Security",
+      "name": "USENIX Security Symposium",
+      "rank": "A",
+      "domain": "网络与信息安全",
+      "aliases": [
+        "USENIX SECURITY"
+      ],
+      "dblp_keys": [
+        "uss"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/uss/",
+      "source_pdf_page": 20
+    },
+    {
+      "id": "ccf-03-a-06",
+      "acronym": "NDSS",
+      "official_acronym": "NDSS",
+      "name": "Network and Distributed System Security Symposium",
+      "rank": "A",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "ndss"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ndss/",
+      "source_pdf_page": 20
+    },
+    {
+      "id": "ccf-03-b-01",
+      "acronym": "ACSAC",
+      "official_acronym": "ACSAC",
+      "name": "Annual Computer Security Applications Conference",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "acsac"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/acsac/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-02",
+      "acronym": "ASIACRYPT",
+      "official_acronym": "ASIACRYPT",
+      "name": "Annual International Conference on the Theory and Application of Cryptology and Information Security",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "asiacrypt"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/asiacrypt/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-03",
+      "acronym": "ESORICS",
+      "official_acronym": "ESORICS",
+      "name": "European Symposium on Research in Computer Security",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "esorics"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/esorics/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-04",
+      "acronym": "FSE",
+      "official_acronym": "FSE",
+      "name": "Fast Software Encryption",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "fse"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/fse/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-05",
+      "acronym": "CSFW",
+      "official_acronym": "CSFW",
+      "name": "IEEE Computer Security Foundations Workshop",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "csfw"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/csfw/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-06",
+      "acronym": "SRDS",
+      "official_acronym": "SRDS",
+      "name": "IEEE International Symposium on Reliable Distributed Systems",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "srds"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/srds/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-07",
+      "acronym": "CHES",
+      "official_acronym": "CHES",
+      "name": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "ches"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/ches/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-08",
+      "acronym": "DSN",
+      "official_acronym": "DSN",
+      "name": "International Conference on Dependable Systems and Networks",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "dsn"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/dsn/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-09",
+      "acronym": "RAID",
+      "official_acronym": "RAID",
+      "name": "International Symposium on Recent Advances in Intrusion Detection",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "raid"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/raid/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-10",
+      "acronym": "PKC",
+      "official_acronym": "PKC",
+      "name": "International Workshop on Practice and Theory in Public Key Cryptography",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "pkc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/pkc/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-b-11",
+      "acronym": "TCC",
+      "official_acronym": "TCC",
+      "name": "Theory of Cryptography Conference",
+      "rank": "B",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "tcc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/tcc/index.html",
+      "source_pdf_page": 21
+    },
+    {
+      "id": "ccf-03-c-01",
+      "acronym": "WiSec",
+      "official_acronym": "WiSec",
+      "name": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "wisec"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wisec/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-02",
+      "acronym": "SACMAT",
+      "official_acronym": "SACMAT",
+      "name": "ACM Symposium on Access Control Models and Technologies",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "sacmat"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sacmat/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-03",
+      "acronym": "DRM",
+      "official_acronym": "DRM",
+      "name": "ACM Workshop on Digital Rights Management",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "drm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/drm/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-04",
+      "acronym": "IH&MMSec",
+      "official_acronym": "IH&MMSec",
+      "name": "ACM Workshop on Information Hiding and Multimedia Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "ih"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ih/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-05",
+      "acronym": "ACNS",
+      "official_acronym": "ACNS",
+      "name": "International Conference on Applied Cryptography and Network Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "acns"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/acns/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-06",
+      "acronym": "AsiaCCS",
+      "official_acronym": "AsiaCCS",
+      "name": "ACM Asia Conference on Computer and Communications Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "asiaccs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ccs/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-07",
+      "acronym": "ACISP",
+      "official_acronym": "ACISP",
+      "name": "Australasia Conference on Information Security and Privacy",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "acisp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/acisp/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-08",
+      "acronym": "CT-RSA",
+      "official_acronym": "CT-RSA",
+      "name": "The Cryptographer's Track at RSA Conference",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "ctrsa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ctrsa/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-09",
+      "acronym": "DIMVA",
+      "official_acronym": "DIMVA",
+      "name": "Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "dimva"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/dimva/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-10",
+      "acronym": "DFRWS",
+      "official_acronym": "DFRWS",
+      "name": "Digital Forensic Research Workshop",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "dfrws"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/dfrws/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-11",
+      "acronym": "FC",
+      "official_acronym": "FC",
+      "name": "Financial Cryptography and Data Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "fc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fc/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-12",
+      "acronym": "TrustCom",
+      "official_acronym": "TrustCom",
+      "name": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "trustcom"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/trustcom/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-13",
+      "acronym": "SEC",
+      "official_acronym": "SEC",
+      "name": "IFIP International Information Security Conference",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "sec"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sec/",
+      "source_pdf_page": 22
+    },
+    {
+      "id": "ccf-03-c-14",
+      "acronym": "IFIP WG 11.9",
+      "official_acronym": "IFIP WG 11.9",
+      "name": "IFIP Working Group 11.9 International Conference on Digital Forensics",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "ifip11-9"
+      ],
+      "reference_url": "https://dblp.org/db/conf/ifip11-9/index.html",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-15",
+      "acronym": "ISC",
+      "official_acronym": "ISC",
+      "name": "Information Security Conference",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "isw"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/isw/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-16",
+      "acronym": "ICDF2C",
+      "official_acronym": "ICDF2C",
+      "name": "International Conference on Digital Forensics & Cyber Crime",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "icdf2c"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icdf2c/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-17",
+      "acronym": "ICICS",
+      "official_acronym": "ICICS",
+      "name": "International Conference on Information and Communications Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "icics"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icics/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-18",
+      "acronym": "SecureComm",
+      "official_acronym": "SecureComm",
+      "name": "International Conference on Security and Privacy in Communication Networks",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "securecomm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/securecomm/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-19",
+      "acronym": "NSPW",
+      "official_acronym": "NSPW",
+      "name": "New Security Paradigms Workshop",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "nspw"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/nspw/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-20",
+      "acronym": "PAM",
+      "official_acronym": "PAM",
+      "name": "Passive and Active Measurement Conference",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "pam"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pam/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-21",
+      "acronym": "PETS",
+      "official_acronym": "PETS",
+      "name": "Privacy Enhancing Technologies Symposium",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "pet"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pet/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-22",
+      "acronym": "SAC",
+      "official_acronym": "SAC",
+      "name": "Selected Areas in Cryptography",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "sacrypt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sacrypt/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-23",
+      "acronym": "SOUPS",
+      "official_acronym": "SOUPS",
+      "name": "Symposium On Usable Privacy and Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "soups"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/soups/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-24",
+      "acronym": "HotSec",
+      "official_acronym": "HotSec",
+      "name": "USENIX Workshop on Hot Topics in Security",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [],
+      "reference_url": "http://www.usenix.org/events/",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-25",
+      "acronym": "EuroS&P",
+      "official_acronym": "EuroS&P",
+      "name": "IEEE European Symposium on Security and Privacy",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "eurosp"
+      ],
+      "reference_url": "https://dblp.org/db/conf/eurosp/index.html",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-26",
+      "acronym": "Inscrypt",
+      "official_acronym": "Inscrypt",
+      "name": "International Conference on Information Security and Cryptology",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "cisc"
+      ],
+      "reference_url": "https://dblp.org/db/conf/cisc/index.html",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-27",
+      "acronym": "CODASPY",
+      "official_acronym": "CODASPY",
+      "name": "Conference on Data and Application Security and Privacy",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "codaspy"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/codaspy/index.html",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-28",
+      "acronym": "BlockSys",
+      "official_acronym": "BlockSys",
+      "name": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "blocksys"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/blocksys/index.html",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-03-c-29",
+      "acronym": "CSCloud",
+      "official_acronym": "CSCloud",
+      "name": "International Conference on Cyber Security and Cloud Computing",
+      "rank": "C",
+      "domain": "网络与信息安全",
+      "aliases": [],
+      "dblp_keys": [
+        "cscloud"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/cscloud/index.html",
+      "source_pdf_page": 23
+    },
+    {
+      "id": "ccf-04-a-01",
+      "acronym": "PLDI",
+      "official_acronym": "PLDI",
+      "name": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "pldi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pldi/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-02",
+      "acronym": "POPL",
+      "official_acronym": "POPL",
+      "name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "popl"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/popl/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-03",
+      "acronym": "FSE",
+      "official_acronym": "FSE",
+      "name": "ACM International Conference on the Foundations of Software Engineering",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "sigsoft"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sigsoft/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-04",
+      "acronym": "SOSP",
+      "official_acronym": "SOSP",
+      "name": "ACM Symposium on Operating Systems Principles",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "sosp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sosp/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-05",
+      "acronym": "OOPSLA",
+      "official_acronym": "OOPSLA",
+      "name": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "oopsla"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/oopsla/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-06",
+      "acronym": "ASE",
+      "official_acronym": "ASE",
+      "name": "International Conference on Automated Software Engineering",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "kbse"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/kbse/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-07",
+      "acronym": "ICSE",
+      "official_acronym": "ICSE",
+      "name": "International Conference on Software Engineering",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icse"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icse/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-08",
+      "acronym": "ISSTA",
+      "official_acronym": "ISSTA",
+      "name": "International Symposium on Software Testing and Analysis",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "issta"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/issta/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-09",
+      "acronym": "OSDI",
+      "official_acronym": "OSDI",
+      "name": "USENIX Symposium on Operating Systems Design and Implementation",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "osdi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/osdi/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-a-10",
+      "acronym": "FM",
+      "official_acronym": "FM",
+      "name": "International Symposium on Formal Methods",
+      "rank": "A",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "fm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fm/",
+      "source_pdf_page": 27
+    },
+    {
+      "id": "ccf-04-b-01",
+      "acronym": "ECOOP",
+      "official_acronym": "ECOOP",
+      "name": "European Conference on Object-Oriented Programming",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "ecoop"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ecoop/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-02",
+      "acronym": "ETAPS",
+      "official_acronym": "ETAPS",
+      "name": "European Joint Conferences on Theory and Practice of Software",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "etaps"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/etaps/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-03",
+      "acronym": "ICPC",
+      "official_acronym": "ICPC",
+      "name": "IEEE International Conference on Program Comprehension",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "iwpc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iwpc/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-04",
+      "acronym": "RE",
+      "official_acronym": "RE",
+      "name": "IEEE International Requirements Engineering Conference",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "re"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/re/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-05",
+      "acronym": "CAiSE",
+      "official_acronym": "CAiSE",
+      "name": "International Conference on Advanced Information Systems Engineering",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "caise"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/caise/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-06",
+      "acronym": "ICFP",
+      "official_acronym": "ICFP",
+      "name": "ACM SIGPLAN International Conference on Function Programming",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icfp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icfp/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-07",
+      "acronym": "LCTES",
+      "official_acronym": "LCTES",
+      "name": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "lctrts"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/lctrts/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-08",
+      "acronym": "MoDELS",
+      "official_acronym": "MoDELS",
+      "name": "ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "models"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/models/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-09",
+      "acronym": "CP",
+      "official_acronym": "CP",
+      "name": "International Conference on Principles and Practice of Constraint Programming",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "cp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cp/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-10",
+      "acronym": "ICSOC",
+      "official_acronym": "ICSOC",
+      "name": "International Conference on Service Oriented Computing",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icsoc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icsoc/",
+      "source_pdf_page": 28
+    },
+    {
+      "id": "ccf-04-b-11",
+      "acronym": "SANER",
+      "official_acronym": "SANER",
+      "name": "IEEE International Conference on Software Analysis, Evolution, and Reengineering",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "wcre"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wcre/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-12",
+      "acronym": "ICSME",
+      "official_acronym": "ICSME",
+      "name": "International Conference on Software Maintenance and Evolution",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icsm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icsm/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-13",
+      "acronym": "VMCAI",
+      "official_acronym": "VMCAI",
+      "name": "International Conference on Verification, Model Checking and Abstract Interpretation",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "vmcai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/vmcai/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-14",
+      "acronym": "ICWS",
+      "official_acronym": "ICWS",
+      "name": "IEEE International Conference on Web Services",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icws"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icws/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-15",
+      "acronym": "Middleware",
+      "official_acronym": "Middleware",
+      "name": "International Middleware Conference",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "middleware"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/middleware/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-16",
+      "acronym": "SAS",
+      "official_acronym": "SAS",
+      "name": "International Static Analysis Symposium",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "sas"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sas/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-17",
+      "acronym": "ESEM",
+      "official_acronym": "ESEM",
+      "name": "International Symposium on Empirical Software Engineering and Measurement",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "esem"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/esem/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-18",
+      "acronym": "ISSRE",
+      "official_acronym": "ISSRE",
+      "name": "IEEE International Symposium on Software Reliability Engineering",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "issre"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/issre/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-19",
+      "acronym": "HotOS",
+      "official_acronym": "HotOS",
+      "name": "USENIX Workshop on Hot Topics in Operating Systems",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "hotos"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hotos/",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-b-20",
+      "acronym": "CC",
+      "official_acronym": "CC",
+      "name": "International Conference on Compiler Construction",
+      "rank": "B",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "cc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/cc/index.html",
+      "source_pdf_page": 29
+    },
+    {
+      "id": "ccf-04-c-01",
+      "acronym": "PEPM",
+      "official_acronym": "PEPM",
+      "name": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "pepm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pepm/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-02",
+      "acronym": "PASTE",
+      "official_acronym": "PASTE",
+      "name": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "paste"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/paste/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-03",
+      "acronym": "APLAS",
+      "official_acronym": "APLAS",
+      "name": "Asian Symposium on Programming Languages and Systems",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "aplas"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/aplas/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-04",
+      "acronym": "APSEC",
+      "official_acronym": "APSEC",
+      "name": "Asia-Pacific Software Engineering Conference",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "apsec"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/apsec/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-05",
+      "acronym": "EASE",
+      "official_acronym": "EASE",
+      "name": "International Conference on Evaluation and Assessment in Software Engineering",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "ease"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ease/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-06",
+      "acronym": "ICECCS",
+      "official_acronym": "ICECCS",
+      "name": "International Conference on Engineering of Complex Computer Systems",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "iceccs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iceccs/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-07",
+      "acronym": "ICST",
+      "official_acronym": "ICST",
+      "name": "IEEE International Conference on Software Testing, Verification and Validation",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icst"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icst/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-08",
+      "acronym": "ISPASS",
+      "official_acronym": "ISPASS",
+      "name": "IEEE International Symposium on Performance Analysis of Systems and Software",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "ispass"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ispass/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-09",
+      "acronym": "SCAM",
+      "official_acronym": "SCAM",
+      "name": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "scam"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/scam/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-10",
+      "acronym": "COMPSAC",
+      "official_acronym": "COMPSAC",
+      "name": "International Computer Software and Applications Conference",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "compsac"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/compsac/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-11",
+      "acronym": "ICFEM",
+      "official_acronym": "ICFEM",
+      "name": "International Conference on Formal Engineering Methods",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icfem"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icfem/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-12",
+      "acronym": "SSE",
+      "official_acronym": "SSE",
+      "name": "IEEE International Conference on Software Services Engineering",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "IEEEscc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/IEEEscc/",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-13",
+      "acronym": "ICSSP",
+      "official_acronym": "ICSSP",
+      "name": "International Conference on Software and System Process",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "ispw"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/ispw/index.html",
+      "source_pdf_page": 30
+    },
+    {
+      "id": "ccf-04-c-14",
+      "acronym": "SEKE",
+      "official_acronym": "SEKE",
+      "name": "International Conference on Software Engineering and Knowledge Engineering",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "seke"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/seke/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-15",
+      "acronym": "QRS",
+      "official_acronym": "QRS",
+      "name": "International Conference on Software Quality, Reliability and Security",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "qrs"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/qrs/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-16",
+      "acronym": "ICSR",
+      "official_acronym": "ICSR",
+      "name": "International Conference on Software Reuse",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icsr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icsr/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-17",
+      "acronym": "ICWE",
+      "official_acronym": "ICWE",
+      "name": "International Conference on Web Engineering",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "icwe"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icwe/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-18",
+      "acronym": "SPIN",
+      "official_acronym": "SPIN",
+      "name": "International Symposium on Model Checking of Software",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "spin"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/spin/index.html",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-19",
+      "acronym": "ATVA",
+      "official_acronym": "ATVA",
+      "name": "International Symposium on Automated Technology for Verification and Analysis",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "atva"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/atva/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-20",
+      "acronym": "LOPSTR",
+      "official_acronym": "LOPSTR",
+      "name": "International Symposium on Logic-based Program Synthesis and Transformation",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "lopstr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/lopstr/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-21",
+      "acronym": "TASE",
+      "official_acronym": "TASE",
+      "name": "Theoretical Aspects of Software Engineering Conference",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "tase"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/tase/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-22",
+      "acronym": "MSR",
+      "official_acronym": "MSR",
+      "name": "Mining Software Repositories",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "msr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/msr/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-23",
+      "acronym": "REFSQ",
+      "official_acronym": "REFSQ",
+      "name": "Requirements Engineering: Foundation for Software Quality",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "refsq"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/refsq/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-24",
+      "acronym": "WICSA",
+      "official_acronym": "WICSA",
+      "name": "Working IEEE/IFIP Conference on Software Architecture",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "wicsa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wicsa/",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-25",
+      "acronym": "Internetware",
+      "official_acronym": "Internetware",
+      "name": "Asia-Pacific Symposium on Internetware",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "internetware"
+      ],
+      "reference_url": "https://dblp.org/db/conf/internetware/index.html",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-26",
+      "acronym": "RV",
+      "official_acronym": "RV",
+      "name": "International Conference on Runtime Verification",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "rv"
+      ],
+      "reference_url": "https://dblp.org/db/conf/rv/index.html",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-04-c-27",
+      "acronym": "MEMOCODE",
+      "official_acronym": "MEMOCODE",
+      "name": "International Conference on Formal Methods and Models for Co-Design",
+      "rank": "C",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "aliases": [],
+      "dblp_keys": [
+        "memocode"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/memocode/index.html",
+      "source_pdf_page": 31
+    },
+    {
+      "id": "ccf-05-a-01",
+      "acronym": "SIGMOD",
+      "official_acronym": "SIGMOD",
+      "name": "ACM SIGMOD Conference",
+      "rank": "A",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "sigmod"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sigmod/",
+      "source_pdf_page": 35
+    },
+    {
+      "id": "ccf-05-a-02",
+      "acronym": "SIGKDD",
+      "official_acronym": "SIGKDD",
+      "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "rank": "A",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [
+        "KDD",
+        "ACM SIGKDD"
+      ],
+      "dblp_keys": [
+        "kdd"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/kdd/",
+      "source_pdf_page": 35
+    },
+    {
+      "id": "ccf-05-a-03",
+      "acronym": "ICDE",
+      "official_acronym": "ICDE",
+      "name": "IEEE International Conference on Data Engineering",
+      "rank": "A",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "icde"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icde/",
+      "source_pdf_page": 35
+    },
+    {
+      "id": "ccf-05-a-04",
+      "acronym": "SIGIR",
+      "official_acronym": "SIGIR",
+      "name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "rank": "A",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "sigir"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sigir/",
+      "source_pdf_page": 35
+    },
+    {
+      "id": "ccf-05-a-05",
+      "acronym": "VLDB",
+      "official_acronym": "VLDB",
+      "name": "International Conference on Very Large Data Bases",
+      "rank": "A",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "vldb"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/vldb/",
+      "source_pdf_page": 35
+    },
+    {
+      "id": "ccf-05-b-01",
+      "acronym": "CIKM",
+      "official_acronym": "CIKM",
+      "name": "ACM International Conference on Information and Knowledge Management",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "cikm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cikm/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-02",
+      "acronym": "WSDM",
+      "official_acronym": "WSDM",
+      "name": "ACM International Conference on Web Search and Data Mining",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "wsdm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wsdm/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-03",
+      "acronym": "PODS",
+      "official_acronym": "PODS",
+      "name": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "pods"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pods/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-04",
+      "acronym": "DASFAA",
+      "official_acronym": "DASFAA",
+      "name": "International Conference on Database Systems for Advanced Applications",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "dasfaa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/dasfaa/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-05",
+      "acronym": "ECML-PKDD",
+      "official_acronym": "ECML-PKDD",
+      "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "ecml"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ecml/ http://dblp.uni-trier.de/db/conf/pkdd/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-06",
+      "acronym": "ISWC",
+      "official_acronym": "ISWC",
+      "name": "IEEE International Semantic Web Conference",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "semweb"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/semweb/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-07",
+      "acronym": "ICDM",
+      "official_acronym": "ICDM",
+      "name": "IEEE International Conference on Data Mining",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "icdm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icdm/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-08",
+      "acronym": "ICDT",
+      "official_acronym": "ICDT",
+      "name": "International Conference on Database Theory",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "icdt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icdt/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-09",
+      "acronym": "EDBT",
+      "official_acronym": "EDBT",
+      "name": "International Conference on Extending Database Technology",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "edbt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/edbt/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-10",
+      "acronym": "CIDR",
+      "official_acronym": "CIDR",
+      "name": "Conference on Innovative Data Systems Research",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "cidr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cidr/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-11",
+      "acronym": "SDM",
+      "official_acronym": "SDM",
+      "name": "SIAM International Conference on Data Mining",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "sdm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sdm/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-12",
+      "acronym": "RecSys",
+      "official_acronym": "RecSys",
+      "name": "ACM Conference on Recommender Systems",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "recsys"
+      ],
+      "reference_url": "https://dblp.org/db/conf/recsys/index.html",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-b-13",
+      "acronym": "WISE",
+      "official_acronym": "WISE",
+      "name": "Web Information Systems Engineering Conference",
+      "rank": "B",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "wise"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/wise/",
+      "source_pdf_page": 36
+    },
+    {
+      "id": "ccf-05-c-01",
+      "acronym": "APWeb",
+      "official_acronym": "APWeb",
+      "name": "Asia Pacific Web Conference",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "apweb"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/apweb/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-02",
+      "acronym": "DEXA",
+      "official_acronym": "DEXA",
+      "name": "International Conference on Database and Expert System Applications",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "dexa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/dexa/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-03",
+      "acronym": "ECIR",
+      "official_acronym": "ECIR",
+      "name": "European Conference on Information Retrieval",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "ecir"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ecir/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-04",
+      "acronym": "ESWC",
+      "official_acronym": "ESWC",
+      "name": "Extended Semantic Web Conference",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "esws"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/esws/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-05",
+      "acronym": "WebDB",
+      "official_acronym": "WebDB",
+      "name": "International Workshop on Web and Databases",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "webdb"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/webdb/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-06",
+      "acronym": "ER",
+      "official_acronym": "ER",
+      "name": "International Conference on Conceptual Modeling",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "er"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/er/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-07",
+      "acronym": "MDM",
+      "official_acronym": "MDM",
+      "name": "International Conference on Mobile Data Management",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "mdm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mdm/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-08",
+      "acronym": "SSDBM",
+      "official_acronym": "SSDBM",
+      "name": "International Conference on Scientific and Statistical Database Management",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "ssdbm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ssdbm/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-09",
+      "acronym": "WAIM",
+      "official_acronym": "WAIM",
+      "name": "International Conference on Web Age Information Management",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "waim"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/waim/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-10",
+      "acronym": "SSTD",
+      "official_acronym": "SSTD",
+      "name": "International Symposium on Spatial and Temporal Databases",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "ssd"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/ssd/index.html",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-11",
+      "acronym": "PAKDD",
+      "official_acronym": "PAKDD",
+      "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "pakdd"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pakdd/",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-12",
+      "acronym": "ADMA",
+      "official_acronym": "ADMA",
+      "name": "International Conference on Advanced Data Mining and Applications",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "adma"
+      ],
+      "reference_url": "https://dblp.org/db/conf/adma/index.html",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-05-c-13",
+      "acronym": "WISA",
+      "official_acronym": "WISA",
+      "name": "Web Information Systems and Applications",
+      "rank": "C",
+      "domain": "数据库/数据挖掘/内容检索",
+      "aliases": [],
+      "dblp_keys": [
+        "IEEEwisa"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/IEEEwisa/index.html",
+      "source_pdf_page": 37
+    },
+    {
+      "id": "ccf-06-a-01",
+      "acronym": "STOC",
+      "official_acronym": "STOC",
+      "name": "ACM Symposium on the Theory of Computing",
+      "rank": "A",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "stoc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/stoc/",
+      "source_pdf_page": 41
+    },
+    {
+      "id": "ccf-06-a-02",
+      "acronym": "SODA",
+      "official_acronym": "SODA",
+      "name": "ACM-SIAM Symposium on Discrete Algorithms",
+      "rank": "A",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "soda"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/soda/",
+      "source_pdf_page": 41
+    },
+    {
+      "id": "ccf-06-a-03",
+      "acronym": "CAV",
+      "official_acronym": "CAV",
+      "name": "International Conference on Computer Aided Verification",
+      "rank": "A",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "cav"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cav/",
+      "source_pdf_page": 41
+    },
+    {
+      "id": "ccf-06-a-04",
+      "acronym": "FOCS",
+      "official_acronym": "FOCS",
+      "name": "IEEE Annual Symposium on Foundations of Computer Science",
+      "rank": "A",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "focs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/focs/",
+      "source_pdf_page": 41
+    },
+    {
+      "id": "ccf-06-a-05",
+      "acronym": "LICS",
+      "official_acronym": "LICS",
+      "name": "ACM/IEEE Symposium on Logic in Computer Science",
+      "rank": "A",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "lics"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/lics/",
+      "source_pdf_page": 41
+    },
+    {
+      "id": "ccf-06-b-01",
+      "acronym": "SoCG",
+      "official_acronym": "SoCG",
+      "name": "International Symposium on Computational Geometry",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "compgeom"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/compgeom/index.html",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-02",
+      "acronym": "ESA",
+      "official_acronym": "ESA",
+      "name": "European Symposium on Algorithms",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "esa"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/esa/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-03",
+      "acronym": "CCC",
+      "official_acronym": "CCC",
+      "name": "Conference on Computational Complexity",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "coco"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/coco/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-04",
+      "acronym": "ICALP",
+      "official_acronym": "ICALP",
+      "name": "International Colloquium on Automata, Languages and Programming",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "icalp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icalp/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-05",
+      "acronym": "CADE",
+      "official_acronym": "CADE",
+      "name": "Conference on Automated Deduction",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "cade"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cade/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-06",
+      "acronym": "CONCUR",
+      "official_acronym": "CONCUR",
+      "name": "International Conference on Concurrency Theory",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "concur"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/concur/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-07",
+      "acronym": "HSCC",
+      "official_acronym": "HSCC",
+      "name": "International Conference on Hybrid Systems: Computation and Control",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "hybrid"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/hybrid/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-08",
+      "acronym": "SAT",
+      "official_acronym": "SAT",
+      "name": "International Conference on Theory and Applications of Satisfiability Testing",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "sat"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sat/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-09",
+      "acronym": "COCOON",
+      "official_acronym": "COCOON",
+      "name": "International Computing and Combinatorics Conference",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "cocoon"
+      ],
+      "reference_url": "https://dblp.org/db/conf/cocoon/index.html",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-b-10",
+      "acronym": "FMCAD",
+      "official_acronym": "FMCAD",
+      "name": "Formal Methods in Computer-Aided Design",
+      "rank": "B",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "fmcad"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fmcad/",
+      "source_pdf_page": 42
+    },
+    {
+      "id": "ccf-06-c-01",
+      "acronym": "CSL",
+      "official_acronym": "CSL",
+      "name": "Computer Science Logic",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "csl"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/csl/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-02",
+      "acronym": "FSTTCS",
+      "official_acronym": "FSTTCS",
+      "name": "Foundations of Software Technology and Theoretical Computer Science",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "fsttcs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fsttcs/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-03",
+      "acronym": "DSAA",
+      "official_acronym": "DSAA",
+      "name": "IEEE International Conference on Data Science and Advanced Analytics",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "dsaa"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/dsaa/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-04",
+      "acronym": "ICTAC",
+      "official_acronym": "ICTAC",
+      "name": "International Colloquium on Theoretical Aspects of Computing",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "ictac"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ictac/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-05",
+      "acronym": "IPCO",
+      "official_acronym": "IPCO",
+      "name": "International Conference on Integer Programming and Combinatorial Optimization",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "ipco"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ipco/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-06",
+      "acronym": "FSCD",
+      "official_acronym": "FSCD（原 RTA）",
+      "name": "International Conference on Formal Structures for Computation and Deduction",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [
+        "FSCD（原 RTA）",
+        "RTA",
+        "Rewriting Techniques and Applications"
+      ],
+      "dblp_keys": [
+        "fscd",
+        "rta"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/rta/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-07",
+      "acronym": "ISAAC",
+      "official_acronym": "ISAAC",
+      "name": "International Symposium on Algorithms and Computation",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "isaac"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/isaac/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-08",
+      "acronym": "MFCS",
+      "official_acronym": "MFCS",
+      "name": "International Conference on Mathematical Foundations of Computer Science",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "mfcs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mfcs/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-09",
+      "acronym": "STACS",
+      "official_acronym": "STACS",
+      "name": "Symposium on Theoretical Aspects of Computer Science",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "stacs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/stacs/",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-06-c-10",
+      "acronym": "SETTA",
+      "official_acronym": "SETTA",
+      "name": "International Symposium on Software Engineering: Theories, Tools, and Applications",
+      "rank": "C",
+      "domain": "计算机科学理论",
+      "aliases": [],
+      "dblp_keys": [
+        "setta"
+      ],
+      "reference_url": "https://dblp.org/db/conf/setta/index.html",
+      "source_pdf_page": 43
+    },
+    {
+      "id": "ccf-07-a-01",
+      "acronym": "ACM MM",
+      "official_acronym": "ACM MM",
+      "name": "ACM International Conference on Multimedia",
+      "rank": "A",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [
+        "ACM Multimedia",
+        "MM",
+        "ACMMM"
+      ],
+      "dblp_keys": [
+        "mm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mm/",
+      "source_pdf_page": 47
+    },
+    {
+      "id": "ccf-07-a-02",
+      "acronym": "SIGGRAPH",
+      "official_acronym": "SIGGRAPH",
+      "name": "ACM Special Interest Group on Computer Graphics",
+      "rank": "A",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [
+        "ACM SIGGRAPH"
+      ],
+      "dblp_keys": [
+        "siggraph"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/siggraph/index.html",
+      "source_pdf_page": 47
+    },
+    {
+      "id": "ccf-07-a-03",
+      "acronym": "VR",
+      "official_acronym": "VR",
+      "name": "IEEE Conference on Virtual Reality and 3D User Interfaces（原 IEEE Virtual Reality）",
+      "rank": "A",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [
+        "IEEE Conference on Virtual Reality and 3D User Interfaces",
+        "IEEE VR",
+        "IEEE Virtual Reality"
+      ],
+      "dblp_keys": [
+        "vr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/vr/",
+      "source_pdf_page": 47
+    },
+    {
+      "id": "ccf-07-a-04",
+      "acronym": "IEEE VIS",
+      "official_acronym": "IEEE VIS",
+      "name": "IEEE Visualization Conference",
+      "rank": "A",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "visualization"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/visualization/index.html",
+      "source_pdf_page": 47
+    },
+    {
+      "id": "ccf-07-b-01",
+      "acronym": "ICMR",
+      "official_acronym": "ICMR",
+      "name": "ACM SIGMM International Conference on Multimedia Retrieval",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "mir"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mir/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-02",
+      "acronym": "I3D",
+      "official_acronym": "I3D",
+      "name": "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "si3d"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/si3d/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-03",
+      "acronym": "SCA",
+      "official_acronym": "SCA",
+      "name": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "sca"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sca/index.html",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-04",
+      "acronym": "DCC",
+      "official_acronym": "DCC",
+      "name": "Data Compression Conference",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "dcc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/dcc/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-05",
+      "acronym": "Eurographics",
+      "official_acronym": "Eurographics",
+      "name": "Annual Conference of the European Association for Computer Graphics",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "eurographics"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/eurographics/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-06",
+      "acronym": "EuroVis",
+      "official_acronym": "EuroVis",
+      "name": "Eurographics Conference on Visualization",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "vissym"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/vissym/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-07",
+      "acronym": "SGP",
+      "official_acronym": "SGP",
+      "name": "Eurographics Symposium on Geometry Processing",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "sgp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sgp/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-08",
+      "acronym": "EGSR",
+      "official_acronym": "EGSR",
+      "name": "Eurographics Symposium on Rendering",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "rt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/rt/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-09",
+      "acronym": "ICASSP",
+      "official_acronym": "ICASSP",
+      "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "icassp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icassp/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-10",
+      "acronym": "ICME",
+      "official_acronym": "ICME",
+      "name": "IEEE International Conference on Multimedia & Expo",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "icmcs"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icmcs/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-11",
+      "acronym": "ISMAR",
+      "official_acronym": "ISMAR",
+      "name": "International Symposium on Mixed and Augmented Reality",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "ismar"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ismar/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-12",
+      "acronym": "PG",
+      "official_acronym": "PG",
+      "name": "Pacific Conference onComputer Graphics and Applications",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "pg"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pg/index.html",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-13",
+      "acronym": "SPM",
+      "official_acronym": "SPM",
+      "name": "Symposium on Solid and Physical Modeling",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "sma"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/sma/",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-b-14",
+      "acronym": "INTER-SPEECH",
+      "official_acronym": "INTER-SPEECH",
+      "name": "Conference of the International Speech Communication Association",
+      "rank": "B",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "interspeech"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/interspeech/index.html",
+      "source_pdf_page": 48
+    },
+    {
+      "id": "ccf-07-c-01",
+      "acronym": "VRST",
+      "official_acronym": "VRST",
+      "name": "ACM Symposium on Virtual Reality Software and Technology",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "vrst"
+      ],
+      "reference_url": "http://dblp2.uni-trier.de/db/conf/vrst/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-02",
+      "acronym": "CASAXR",
+      "official_acronym": "CASAXR（原 CASA）",
+      "name": "International Conference on Computer Animation, Social Agents, and Extended Reality（原 International Conference on Computer Animation and Social Agents）",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [
+        "CASAXR（原 CASA）",
+        "International Conference on Computer Animation, Social Agents, and Extended Reality",
+        "CASA",
+        "Computer Animation and Social Agents"
+      ],
+      "dblp_keys": [
+        "ca"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ca/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-03",
+      "acronym": "CGI",
+      "official_acronym": "CGI",
+      "name": "Computer Graphics International",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "cgi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cgi/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-04",
+      "acronym": "GMP",
+      "official_acronym": "GMP",
+      "name": "Geometric Modeling and Processing",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "gmp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/gmp/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-05",
+      "acronym": "PacificVis",
+      "official_acronym": "PacificVis",
+      "name": "IEEE Pacific Visualization Symposium",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "apvis"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/apvis/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-06",
+      "acronym": "3DV",
+      "official_acronym": "3DV",
+      "name": "International Conference on 3D Vision",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "3dim"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/3dim/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-07",
+      "acronym": "CAD/Graphics",
+      "official_acronym": "CAD/Graphics",
+      "name": "International Conference on Computer-Aided Design and Computer Graphics Processing",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "cadgraphics"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/cadgraphics/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-08",
+      "acronym": "ICIP",
+      "official_acronym": "ICIP",
+      "name": "IEEE International Conference on Image Processing",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "icip"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icip/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-09",
+      "acronym": "MMM",
+      "official_acronym": "MMM",
+      "name": "International Conference on Multimedia Modeling",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "mmm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mmm/index.html",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-10",
+      "acronym": "MMAsia",
+      "official_acronym": "MMAsia",
+      "name": "ACM Multimedia Asia",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "mmasia"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/mmasia/index.html",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-11",
+      "acronym": "SMI",
+      "official_acronym": "SMI",
+      "name": "Shape Modeling International",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "smi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/smi/",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-12",
+      "acronym": "CVM",
+      "official_acronym": "CVM",
+      "name": "Computational Visual Media",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "cvm"
+      ],
+      "reference_url": "https://dblp.org/db/conf/cvm/index.html",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-13",
+      "acronym": "PRCV",
+      "official_acronym": "PRCV",
+      "name": "Chinese Conference on Pattern Recognition and Computer Vision",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "prcv"
+      ],
+      "reference_url": "https://dblp.org/db/conf/prcv/index.html",
+      "source_pdf_page": 49
+    },
+    {
+      "id": "ccf-07-c-14",
+      "acronym": "ICIG",
+      "official_acronym": "ICIG",
+      "name": "International Conference on Image and Graphics",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "icig"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/icig/index.html",
+      "source_pdf_page": 50
+    },
+    {
+      "id": "ccf-07-c-15",
+      "acronym": "NCMMSC",
+      "official_acronym": "NCMMSC",
+      "name": "National Conference on Man-Machine Speech Communication",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [],
+      "reference_url": "https://dblp.uni-trier.de/search?q=NCMMSC",
+      "source_pdf_page": 50
+    },
+    {
+      "id": "ccf-07-c-16",
+      "acronym": "ASRU",
+      "official_acronym": "ASRU",
+      "name": "Automatic Speech Recognition and Understanding Workshop",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "asru"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/asru/index.html",
+      "source_pdf_page": 50
+    },
+    {
+      "id": "ccf-07-c-17",
+      "acronym": "SLT",
+      "official_acronym": "SLT",
+      "name": "Spoken Language Technology",
+      "rank": "C",
+      "domain": "计算机图形学与多媒体",
+      "aliases": [],
+      "dblp_keys": [
+        "slt"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/slt/index.html",
+      "source_pdf_page": 50
+    },
+    {
+      "id": "ccf-08-a-01",
+      "acronym": "AAAI",
+      "official_acronym": "AAAI",
+      "name": "AAAI Conference on Artificial Intelligence",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "aaai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/aaai/",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-a-02",
+      "acronym": "NeurIPS",
+      "official_acronym": "NeurIPS",
+      "name": "Conference on Neural Information Processing Systems",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [
+        "NIPS",
+        "Advances in Neural Information Processing Systems",
+        "Neural Information Processing Systems"
+      ],
+      "dblp_keys": [
+        "nips"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/nips/",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-a-03",
+      "acronym": "ACL",
+      "official_acronym": "ACL",
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "acl"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/acl/",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-a-04",
+      "acronym": "CVPR",
+      "official_acronym": "CVPR",
+      "name": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [
+        "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "Conference on Computer Vision and Pattern Recognition"
+      ],
+      "dblp_keys": [
+        "cvpr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cvpr/",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-a-05",
+      "acronym": "ICCV",
+      "official_acronym": "ICCV",
+      "name": "International Conference on Computer Vision",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "iccv"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iccv/",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-a-06",
+      "acronym": "ICML",
+      "official_acronym": "ICML",
+      "name": "International Conference on Machine Learning",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icml"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icml/",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-a-07",
+      "acronym": "ICLR",
+      "official_acronym": "ICLR",
+      "name": "International Conference on Learning Representations",
+      "rank": "A",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "iclr"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/iclr/index.html",
+      "source_pdf_page": 57
+    },
+    {
+      "id": "ccf-08-b-01",
+      "acronym": "COLT",
+      "official_acronym": "COLT",
+      "name": "Annual Conference on Computational Learning Theory",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "colt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/colt/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-02",
+      "acronym": "EMNLP",
+      "official_acronym": "EMNLP",
+      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [
+        "Empirical Methods in Natural Language Processing"
+      ],
+      "dblp_keys": [
+        "emnlp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/emnlp/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-03",
+      "acronym": "ECAI",
+      "official_acronym": "ECAI",
+      "name": "European Conference on Artificial Intelligence",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ecai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ecai/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-04",
+      "acronym": "ECCV",
+      "official_acronym": "ECCV",
+      "name": "European Conference on Computer Vision",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "eccv"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/eccv/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-05",
+      "acronym": "ICRA",
+      "official_acronym": "ICRA",
+      "name": "IEEE International Conference on Robotics and Automation",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icra"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icra/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-06",
+      "acronym": "ICAPS",
+      "official_acronym": "ICAPS",
+      "name": "International Conference on Automated Planning and Scheduling",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icaps"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/icaps/index.html",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-07",
+      "acronym": "ICCBR",
+      "official_acronym": "ICCBR",
+      "name": "International Conference on Case-Based Reasoning",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "iccbr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iccbr/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-08",
+      "acronym": "COLING",
+      "official_acronym": "COLING",
+      "name": "International Conference on Computational Linguistics",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "coling"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/coling/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-09",
+      "acronym": "KR",
+      "official_acronym": "KR",
+      "name": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "kr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/kr/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-10",
+      "acronym": "UAI",
+      "official_acronym": "UAI",
+      "name": "Conference on Uncertainty in Artificial Intelligence",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "uai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/uai/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-11",
+      "acronym": "AAMAS",
+      "official_acronym": "AAMAS",
+      "name": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ifaamas"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/ifaamas/index.html",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-12",
+      "acronym": "PPSN",
+      "official_acronym": "PPSN",
+      "name": "Parallel Problem Solving from Nature",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ppsn"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ppsn/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-13",
+      "acronym": "NAACL",
+      "official_acronym": "NAACL",
+      "name": "North American Chapter of the Association for Computational Linguistics",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [
+        "NAACL-HLT"
+      ],
+      "dblp_keys": [
+        "naacl"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/naacl/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-b-14",
+      "acronym": "IJCAI",
+      "official_acronym": "IJCAI",
+      "name": "International Joint Conference on Artificial Intelligence",
+      "rank": "B",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ijcai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ijcai/",
+      "source_pdf_page": 58
+    },
+    {
+      "id": "ccf-08-c-01",
+      "acronym": "AISTATS",
+      "official_acronym": "AISTATS",
+      "name": "International Conference on Artificial Intelligence and Statistics",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "aistats"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/aistats/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-02",
+      "acronym": "ACCV",
+      "official_acronym": "ACCV",
+      "name": "Asian Conference on Computer Vision",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "accv"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/accv/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-03",
+      "acronym": "ACML",
+      "official_acronym": "ACML",
+      "name": "Asian Conference on Machine Learning",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "acml"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/acml/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-04",
+      "acronym": "BMVC",
+      "official_acronym": "BMVC",
+      "name": "British Machine Vision Conference",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "bmvc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/bmvc/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-05",
+      "acronym": "NLPCC",
+      "official_acronym": "NLPCC",
+      "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "nlpcc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/nlpcc/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-06",
+      "acronym": "CoNLL",
+      "official_acronym": "CoNLL",
+      "name": "Conference on Computational Natural Language Learning",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "conll"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/conll",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-07",
+      "acronym": "GECCO",
+      "official_acronym": "GECCO",
+      "name": "Genetic and Evolutionary Computation Conference",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "gecco"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/gecco/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-08",
+      "acronym": "ICTAI",
+      "official_acronym": "ICTAI",
+      "name": "IEEE International Conference on Tools with Artificial Intelligence",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ictai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ictai/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-09",
+      "acronym": "IROS",
+      "official_acronym": "IROS",
+      "name": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "iros"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iros/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-10",
+      "acronym": "ALT",
+      "official_acronym": "ALT",
+      "name": "International Conference on Algorithmic Learning Theory",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "alt"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/alt/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-11",
+      "acronym": "ICANN",
+      "official_acronym": "ICANN",
+      "name": "International Conference on Artificial Neural Networks",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icann"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icann/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-12",
+      "acronym": "FG",
+      "official_acronym": "FG",
+      "name": "IEEE International Conference on Automatic Face and Gesture Recognition",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "fgr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/fgr/",
+      "source_pdf_page": 59
+    },
+    {
+      "id": "ccf-08-c-13",
+      "acronym": "ICDAR",
+      "official_acronym": "ICDAR",
+      "name": "International Conference on Document Analysis and Recognition",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icdar"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icdar/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-14",
+      "acronym": "ILP",
+      "official_acronym": "ILP",
+      "name": "International Conference on Inductive Logic Programming",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ilp"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ilp/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-15",
+      "acronym": "KSEM",
+      "official_acronym": "KSEM",
+      "name": "International conference on Knowledge Science, Engineering and Management",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ksem"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ksem/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-16",
+      "acronym": "ICONIP",
+      "official_acronym": "ICONIP",
+      "name": "International Conference on Neural Information Processing",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "iconip"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iconip/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-17",
+      "acronym": "ICPR",
+      "official_acronym": "ICPR",
+      "name": "International Conference on Pattern Recognition",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icpr"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icpr/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-18",
+      "acronym": "IJCB",
+      "official_acronym": "IJCB",
+      "name": "International Joint Conference on Biometrics",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "icb"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icb/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-19",
+      "acronym": "IJCNN",
+      "official_acronym": "IJCNN",
+      "name": "International Joint Conference on Neural Networks",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "ijcnn"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ijcnn/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-20",
+      "acronym": "PRICAI",
+      "official_acronym": "PRICAI",
+      "name": "Pacific Rim International Conference on Artificial Intelligence",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "pricai"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/pricai/",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-21",
+      "acronym": "IEEE CEC",
+      "official_acronym": "IEEE CEC",
+      "name": "Congress on Evolutionary Computation",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "cec"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/cec/index.html",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-08-c-22",
+      "acronym": "DAI",
+      "official_acronym": "DAI",
+      "name": "International Conference on Distributed Artificial Intelligence",
+      "rank": "C",
+      "domain": "人工智能",
+      "aliases": [],
+      "dblp_keys": [
+        "dai2"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/dai2/index.html",
+      "source_pdf_page": 60
+    },
+    {
+      "id": "ccf-09-a-01",
+      "acronym": "CSCW",
+      "official_acronym": "CSCW",
+      "name": "ACM Conference On Computer-Supported Cooperative Work And Social Computing",
+      "rank": "A",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "cscw"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cscw",
+      "source_pdf_page": 64
+    },
+    {
+      "id": "ccf-09-a-02",
+      "acronym": "CHI",
+      "official_acronym": "CHI",
+      "name": "ACM Conference on Human Factors in Computing Systems",
+      "rank": "A",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "chi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/chi",
+      "source_pdf_page": 64
+    },
+    {
+      "id": "ccf-09-a-03",
+      "acronym": "UbiComp",
+      "official_acronym": "UbiComp",
+      "name": "ACM international joint conference on Pervasive and Ubiquitous Computing",
+      "rank": "A",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "huc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/huc/",
+      "source_pdf_page": 64
+    },
+    {
+      "id": "ccf-09-a-04",
+      "acronym": "UIST",
+      "official_acronym": "UIST",
+      "name": "ACM Symposium on User Interface Software and Technology",
+      "rank": "A",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "uist"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/uist/",
+      "source_pdf_page": 64
+    },
+    {
+      "id": "ccf-09-b-01",
+      "acronym": "GROUP",
+      "official_acronym": "GROUP",
+      "name": "ACM International Conference on Supporting Group Work",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "group"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/group/",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-b-02",
+      "acronym": "IUI",
+      "official_acronym": "IUI",
+      "name": "ACM International Conference on Intelligent User Interfaces",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "iui"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/iui/",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-b-03",
+      "acronym": "ISS",
+      "official_acronym": "ISS",
+      "name": "ACM International Conference on Interactive Surfaces and Spaces",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "tabletop"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/tabletop/",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-b-04",
+      "acronym": "ECSCW",
+      "official_acronym": "ECSCW",
+      "name": "European Conference on Computer Supported Cooperative Work",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "ecscw"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ecscw/",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-b-05",
+      "acronym": "PERCOM",
+      "official_acronym": "PERCOM",
+      "name": "IEEE International Conference on Pervasive Computing and Communications",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "percom"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/percom/",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-b-06",
+      "acronym": "MobileHCI",
+      "official_acronym": "MobileHCI",
+      "name": "ACM International Conference on Mobile Human- Computer Interaction",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "mhci"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mhci/",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-b-07",
+      "acronym": "ICWSM",
+      "official_acronym": "ICWSM",
+      "name": "The International AAAI Conference on Web and Social Media",
+      "rank": "B",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "icwsm"
+      ],
+      "reference_url": "https://dblp.org/db/conf/icwsm/index.html",
+      "source_pdf_page": 65
+    },
+    {
+      "id": "ccf-09-c-01",
+      "acronym": "DIS",
+      "official_acronym": "DIS",
+      "name": "ACM SIGCHI Conference on Designing Interactive Systems",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "ACMdis"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/ACMdis",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-02",
+      "acronym": "ICMI",
+      "official_acronym": "ICMI",
+      "name": "ACM International Conference on Multimodal Interaction",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "icmi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/icmi/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-03",
+      "acronym": "ASSETS",
+      "official_acronym": "ASSETS",
+      "name": "International ACM SIGACCESS Conference on Computers and Accessibility",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "assets"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/assets",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-04",
+      "acronym": "GI",
+      "official_acronym": "GI",
+      "name": "Graphics Interface",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "graphicsinterface"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/graphicsinterface/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-05",
+      "acronym": "UIC",
+      "official_acronym": "UIC",
+      "name": "IEEE International Conference on Ubiquitous Intelligence and Computing",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "uic"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/uic/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-06",
+      "acronym": "WHC",
+      "official_acronym": "",
+      "name": "IEEE World Haptics Conference",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "haptics"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/haptics/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-07",
+      "acronym": "INTERACT",
+      "official_acronym": "INTERACT",
+      "name": "International Conference on Human- Computer Interaction of International Federation for Information Processing",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "interact"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/interact/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-08",
+      "acronym": "IDC",
+      "official_acronym": "IDC",
+      "name": "ACM Interaction Design and Children",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "acmidc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/acmidc/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-09",
+      "acronym": "CollaborateCom",
+      "official_acronym": "CollaborateCom",
+      "name": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "colcom"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/colcom/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-10",
+      "acronym": "CSCWD",
+      "official_acronym": "CSCWD",
+      "name": "International Conference on Computer Supported Cooperative Work in Design",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "cscwd"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cscwd/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-11",
+      "acronym": "CoopIS",
+      "official_acronym": "CoopIS",
+      "name": "International Conference on Cooperative Information Systems",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "coopis"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/coopis/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-12",
+      "acronym": "MobiQuitous",
+      "official_acronym": "MobiQuitous",
+      "name": "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "mobiquitous"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/mobiquitous/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-13",
+      "acronym": "AVI",
+      "official_acronym": "AVI",
+      "name": "International Working Conference on Advanced Visual Interfaces",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "avi"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/avi/",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-14",
+      "acronym": "GPC",
+      "official_acronym": "GPC",
+      "name": "Conference on Green, Pervasive and Cloud Computing",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "gpc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/gpc/index.html",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-09-c-15",
+      "acronym": "ICXR",
+      "official_acronym": "ICXR",
+      "name": "CCF International Conference on Extended Reality",
+      "rank": "C",
+      "domain": "人机交互与普适计算",
+      "aliases": [],
+      "dblp_keys": [
+        "icxr"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/icxr/index.html",
+      "source_pdf_page": 66
+    },
+    {
+      "id": "ccf-10-a-01",
+      "acronym": "WWW",
+      "official_acronym": "WWW",
+      "name": "The Web Conference（原 International World Wide Web Conference）",
+      "rank": "A",
+      "domain": "交叉/综合/新兴",
+      "aliases": [
+        "The Web Conference",
+        "ACM Web Conference",
+        "World Wide Web Conference"
+      ],
+      "dblp_keys": [
+        "www"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/www/",
+      "source_pdf_page": 70
+    },
+    {
+      "id": "ccf-10-a-02",
+      "acronym": "RTSS",
+      "official_acronym": "RTSS",
+      "name": "IEEE Real-Time Systems Symposium",
+      "rank": "A",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "rtss"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/rtss/",
+      "source_pdf_page": 70
+    },
+    {
+      "id": "ccf-10-b-01",
+      "acronym": "CogSci",
+      "official_acronym": "CogSci",
+      "name": "Annual Meeting of the Cognitive Science Society",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "cogsci"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/cogsci/",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-b-02",
+      "acronym": "BIBM",
+      "official_acronym": "BIBM",
+      "name": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "bibm"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/bibm/",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-b-03",
+      "acronym": "EMSOFT",
+      "official_acronym": "EMSOFT",
+      "name": "International Conference on Embedded Software",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "emsoft"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/emsoft/",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-b-04",
+      "acronym": "ISMB",
+      "official_acronym": "ISMB",
+      "name": "International conference on Intelligent Systems for Molecular Biology",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "ismb"
+      ],
+      "reference_url": "https://dblp.org/db/conf/ismb/index.html",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-b-05",
+      "acronym": "RECOMB",
+      "official_acronym": "RECOMB",
+      "name": "Annual International Conference on Research in Computational Molecular Biology",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "recomb"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/recomb/",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-b-06",
+      "acronym": "MICCAI",
+      "official_acronym": "MICCAI",
+      "name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "miccai"
+      ],
+      "reference_url": "https://dblp.org/db/conf/miccai/index.html",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-b-07",
+      "acronym": "WINE",
+      "official_acronym": "WINE",
+      "name": "Conference on Web and Internet Economics",
+      "rank": "B",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "wine"
+      ],
+      "reference_url": "https://dblp.org/db/conf/wine/index.html",
+      "source_pdf_page": 71
+    },
+    {
+      "id": "ccf-10-c-01",
+      "acronym": "AMIA",
+      "official_acronym": "AMIA",
+      "name": "American Medical Informatics Association Annual Symposium",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "amia"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/amia/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-02",
+      "acronym": "APBC",
+      "official_acronym": "APBC",
+      "name": "Asia Pacific Bioinformatics Conference",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "apbc"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/apbc/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-03",
+      "acronym": "IEEE BigData",
+      "official_acronym": "IEEE BigData",
+      "name": "IEEE International Conference on Big Data",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "bigdataconf"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/bigdataconf/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-04",
+      "acronym": "IEEE CLOUD",
+      "official_acronym": "IEEE CLOUD",
+      "name": "IEEE International Conference on Cloud Computing",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "IEEEcloud"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/IEEEcloud/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-05",
+      "acronym": "SMC",
+      "official_acronym": "SMC",
+      "name": "IEEE International Conference on Systems, Man, and Cybernetics",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "smc"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/smc/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-06",
+      "acronym": "COSIT",
+      "official_acronym": "COSIT",
+      "name": "International Conference on Spatial Information Theory",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "cosit"
+      ],
+      "reference_url": "http://dblp.uni-trier.de/db/conf/cosit/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-07",
+      "acronym": "ISBRA",
+      "official_acronym": "ISBRA",
+      "name": "International Symposium on Bioinformatics Research and Applications",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "isbra"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/isbra/",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-08",
+      "acronym": "SAGT",
+      "official_acronym": "SAGT",
+      "name": "International Symposium on Algorithmic Game Theory",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "sagt"
+      ],
+      "reference_url": "https://dblp.org/db/conf/sagt/index.html",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-09",
+      "acronym": "SIGSPATIAL",
+      "official_acronym": "SIGSPATIAL",
+      "name": "ACM Special Interest Group on Spatial Information",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [],
+      "reference_url": "https://dblp.org/db/journals/sigspatial/index.html",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-10",
+      "acronym": "ICIC",
+      "official_acronym": "ICIC",
+      "name": "International Conference on Intelligent Computing",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "icic"
+      ],
+      "reference_url": "https://dblp.org/db/conf/icic/index.html",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-11",
+      "acronym": "ICSS",
+      "official_acronym": "ICSS",
+      "name": "International Conference on Service Science",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "service"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/service/index.html",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-12",
+      "acronym": "AFT",
+      "official_acronym": "AFT",
+      "name": "Advances in Financial Technologies",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "aft"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/aft/index.html",
+      "source_pdf_page": 72
+    },
+    {
+      "id": "ccf-10-c-13",
+      "acronym": "IJTCS-FAW",
+      "official_acronym": "IJTCS-FAW",
+      "name": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
+      "rank": "C",
+      "domain": "交叉/综合/新兴",
+      "aliases": [],
+      "dblp_keys": [
+        "faw"
+      ],
+      "reference_url": "https://dblp.uni-trier.de/db/conf/faw/index.html",
+      "source_pdf_page": 72
+    }
+  ]
+}

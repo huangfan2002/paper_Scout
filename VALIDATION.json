@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-08T05:50:01.405364+00:00",
+  "checks": [
+    {
+      "name": "browser_live_A_search",
+      "status": "passed",
+      "search_id": "490d281298d846d69a7476d84f1968b0",
+      "scanned": 80,
+      "matched": 4,
+      "total_remote": 3213,
+      "scan_limited": true,
+      "warnings": [
+        "已达到候选扫描上限，当前结果不是完整的会议筛选结果；可提高上限或缩小关键词/日期范围。"
+      ]
+    },
+    {
+      "name": "same_query_cache",
+      "status": "passed",
+      "cache_pages": 1
+    },
+    {
+      "name": "live_B_specific_conference",
+      "status": "passed",
+      "search_id": "ad2a5854b47e450584a3324ba47a0663",
+      "scanned": 2,
+      "matched": 2,
+      "conference": "EMNLP"
+    },
+    {
+      "name": "live_C_specific_conference",
+      "status": "passed",
+      "search_id": "2b7cd65c32a14c819711c301c96cd433",
+      "scanned": 6,
+      "matched": 2,
+      "conference": "AISTATS"
+    },
+    {
+      "name": "export_csv",
+      "status": "passed",
+      "bytes": 8495
+    },
+    {
+      "name": "export_json",
+      "status": "passed",
+      "bytes": 14984
+    },
+    {
+      "name": "export_bibtex",
+      "status": "passed",
+      "bytes": 1354
+    },
+    {
+      "name": "pdf_download_and_repeated_skip",
+      "status": "passed",
+      "id": "2610.09091v1",
+      "filename": "2610.09091v1.pdf",
+      "bytes": 1884689,
+      "download_status": "skipped"
+    }
+  ],
+  "completed_at": "2026-10-08T05:50:07.422160+00:00"
+}

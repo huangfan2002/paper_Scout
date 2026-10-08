@@ -1,0 +1,29 @@
+{
+  "_provenance": "Excerpted bibliographic fields from https://serpapi.com/google-scholar-api, historical biology example, 2019-09-26. Snippets omitted. Not a live search.",
+  "search_parameters": {"engine": "google_scholar", "q": "biology"},
+  "organic_results": [
+    {
+      "title": "Population biology of plants.",
+      "result_id": "JC4Acibs_4kJ",
+      "link": "https://www.cabdirect.org/cabdirect/abstract/19782321379",
+      "publication_info": {"summary": "JL Harper - Population biology of plants., 1977 - cabdirect.org"},
+      "inline_links": {
+        "cited_by": {"total": 14003, "link": "https://scholar.google.com/scholar?cites=9943926152122871332&hl=en"},
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:JC4Acibs_4kJ:scholar.google.com/&hl=en",
+        "versions": {"total": 6, "link": "https://scholar.google.com/scholar?cluster=9943926152122871332&hl=en"}
+      }
+    },
+    {
+      "title": "Molecular cell biology",
+      "result_id": "5BUDsdJ6ho0J",
+      "link": "https://books.google.com/books?id=K3JbjG1JiUMC",
+      "publication_info": {"summary": "H Lodish, A Berk, CA Kaiser, M Krieger, MP Scott… - 2008 - books.google.com"},
+      "resources": [{"file_format": "PDF", "link": "http://www2.nsysu.edu.tw/wzhlab/ch6.pdf"}],
+      "inline_links": {
+        "cited_by": {"total": 9196, "link": "https://scholar.google.com/scholar?cites=10197973451558557156&hl=en"},
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:5BUDsdJ6ho0J:scholar.google.com/&hl=en",
+        "versions": {"total": 18, "link": "https://scholar.google.com/scholar?cluster=10197973451558557156&hl=en"}
+      }
+    }
+  ]
+}

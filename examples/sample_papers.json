@@ -1,0 +1,484 @@
+{
+  "snapshot_at": "2026-10-08T05:39:47.983643+00:00",
+  "source": "arXiv official Atom API; read-only metadata snapshot",
+  "papers": [
+    {
+      "id": "2608.21952v1",
+      "base_id": "2608.21952",
+      "title": "SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality",
+      "authors": [
+        "Hyunwoo Kim",
+        "Byoungchan Ko",
+        "Minseok Kang",
+        "Minwoo Kim",
+        "Dongjin Lee",
+        "Jaehoon Lee",
+        "Sungroh Yoon",
+        "Dahuin Jung"
+      ],
+      "abstract": "Recent advances in sequence modeling have highlighted Mamba as a state space architecture offering efficient long-range dependency modeling and providing a viable alternative to Transformers. Building upon this, Mamba-2 introduces the Structured State Space Duality (SSD), which integrates recurrent and attention modes to achieve efficiency and scalability. However, this architectural expansion substantially increases memory and latency overhead, underscoring the need for efficient compression strategies tailored to SSD. In this work, we present SSDi8, the first post-training quantization framework specifically designed for SSD to maintain a persistent INT8 path. SSDi8 introduces a reformulation that decouples element-wise multiplications from matrix multiplications, enabling reuse of quantized activations across modules. Moreover, SSDi8 adaptively quantizes channel-varying activations at cost-effective points, further reducing latency. On the accuracy side, SSDi8 explicitly leverages the intrinsic dimensional decomposition of SSD, exploiting distinct outlier distributions across axes, and incorporates an error correction term based on per-channel error statistics. Comprehensive experiments demonstrate that SSDi8 achieves accuracy comparable to FP16 while delivering up to 1.4x speedup in W4A8 and W8A8 settings. We further validate its robustness in resource-constrained environments by deploying it on the Orin NX device.",
+      "published": "2026-08-22T13:29:28Z",
+      "updated": "2026-08-22T13:29:28Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "comment": "Accepted to ICLR 2026",
+      "journal_ref": "International Conference on Learning Representations (ICLR), 2026",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2608.21952v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21952v1"
+    },
+    {
+      "id": "2610.10227v1",
+      "base_id": "2610.10227",
+      "title": "From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification",
+      "authors": [
+        "Yue Qiu",
+        "Zekang Du",
+        "Yiqun Diao",
+        "Bingsheng He",
+        "Qinbin Li"
+      ],
+      "abstract": "While Large Language Models (LLMs) possess rich world knowledge and impressive generalization capabilities, their direct application to tabular data classification is hindered by high inference costs and limited interpretability. In contrast, decision trees are fast and transparent but often underperform in low-data regimes. In this work, we propose a novel framework that bridges these paradigms by distilling LLM knowledge into interpretable decision trees under a few-shot learning setting. Instead of directly prompting the LLM to generate full trees, which is often unstable and inefficient, we develop a three-stage paradigm that prompts the LLM to generate rules and organize the rules into a tree. Experiments on multiple real-world tabular datasets demonstrate that our method achieves superior accuracy and interpretability with significantly lower prompting overhead compared to existing baselines.",
+      "published": "2026-10-07T15:18:11Z",
+      "updated": "2026-10-07T15:18:11Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Accepted to EMNLP 2026 Main as an oral presentation. Code available: https://github.com/yueqiu0/LLMTree",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.10227v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10227v1"
+    },
+    {
+      "id": "2609.13518v1",
+      "base_id": "2609.13518",
+      "title": "GeoTTER: Leveraging Local Geometry of Optimal Transport for Zero-Shot Classification",
+      "authors": [
+        "Wei-Yang Alex Lee",
+        "Rudrasis Chakraborty",
+        "Vishnu Lokhande"
+      ],
+      "abstract": "We present GeoTTER, a novel framework that redefines optimal transport in the realm of zero-shot classification. Conventional methods often suffer from miscalibration and a lack of adaptability, as they rely on fixed cost matrices derived solely from pre-trained model embeddings. In contrast, GeoTTER addresses these limitations by incorporating two key techniques. First, to alleviate high-frequency label jaggedness (sample-level manifold jitter that assigns neighboring embeddings to different classes), GeoTTER integrates local geometric structure into the optimal transport formulation via graph-Laplacian smoothing, a technique grounded in spectral graph theory that enforces neighborhood consistency. Second, to correct coherent angular drift (a low-frequency orientation bias in which large groups of samples share the same angular offset from their true label prototypes), we fuse clustering-guided cost components with a globally adjusted transport cost, achieving a multi-objective optimization that respects both global distribution constraints and latent data structure. With a median improvement of +6.82% compared to zero-shot and +2.13% compared to OTTER, GeoTTER shows robust improvements across a diverse set of benchmarks.",
+      "published": "2026-09-11T20:38:54Z",
+      "updated": "2026-09-11T20:38:54Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Accepted at AISTATS 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2609.13518v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.13518v1"
+    },
+    {
+      "id": "1706.03762v7",
+      "base_id": "1706.03762",
+      "title": "Attention Is All You Need",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "published": "2017-06-12T17:57:34Z",
+      "updated": "2023-08-02T00:41:18Z",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "comment": "15 pages, 5 figures",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/1706.03762v7",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762v7"
+    },
+    {
+      "id": "2610.09607v1",
+      "base_id": "2610.09607",
+      "title": "Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning",
+      "authors": [
+        "HyeonSeok Lim",
+        "SeungWoo Song",
+        "Inho Won",
+        "Hoyun Song",
+        "Jihyo Kim",
+        "KyungTae Lim"
+      ],
+      "abstract": "Skeleton-based reasoning prompting is a promising training-free approach for structuring LLM reasoning, but prior work largely assumes an English-centric setting. We propose the Language-Aware Skeleton Exploration Framework (LASEF) to study skeleton-language choice in multilingual mathematical reasoning. Across math benchmarks, model scales, and languages, we show that English skeletons yield a small positive tendency on average, most visible for smaller models and low-resource languages. However, few language-level gains remain significant after correction, and English is not universally optimal. Combining greedy decoding, multi-rollout evaluation, translation ablation, and cross-benchmark validation, we further find three patterns of skeleton-language effects: directionally consistent, evaluation- and benchmark-dependent, and asymmetric negative. These effects cannot be fully explained by generation quality alone. Overall, skeleton language is a context-dependent design variable that requires multi-level exploration. All resources are released at https://github.com/lhsstn/LASEF.",
+      "published": "2026-10-07T07:53:13Z",
+      "updated": "2026-10-07T07:53:13Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "comment": "Accepted to EMNLP 2026 (Findings)",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09607v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09607v1"
+    },
+    {
+      "id": "2610.00571v1",
+      "base_id": "2610.00571",
+      "title": "Interpreting Reasoning of Large Language Models via Partial Information Decomposition",
+      "authors": [
+        "Barproda Halder",
+        "Qiuyi Zhang",
+        "Sanghamitra Dutta"
+      ],
+      "abstract": "Large reasoning models (LRMs) have achieved substantial improvements in solving complex mathematical problems, but often produce lengthy, repetitive, or erroneous reasoning trajectories. In this work, we introduce a new interpretability framework, SLIDER, to evaluate the quality of the reasoning process. SLIDER leverages an emerging body of work from information theory called Partial Information Decomposition to disentangle the information about the final answer between two consecutive reasoning steps into non-negative components: unique information (in preceding steps or current step), redundant information, and synergistic information. Building on this decomposition, we propose the *Step-wise Repetitive Reasoning Index (Step-RRI)*, a theoretically grounded measure that assesses whether the answer-relevant information in the current step $S_i$ is predominantly redundant with the past steps $S_{<i}$, relative to its unique and synergistic contributions. To evaluate the effectiveness of Step-RRI in detecting repetitiveness, we apply SLIDER to the redundancy class of the PRMBench dataset where Step-RRI improves step-level redundancy identification accuracy by over $10$ points compared to embedding-similarity and information-gain baselines. Next, we define *Trajectory-RRI*, an aggregate measure of repetitiveness for an individual reasoning trajectory. To demonstrate its practical relevance, we show that average Trajectory-RRI strongly correlates with actual reasoning length across QwQ-32B, DeepSeek-R1-Distill-Qwen-32B, and GPT-4.1, motivating its use as a signal for improving reasoning efficiency. Finally, we introduce *Trajectory-RRI-guided data selection for fine-tuning*, demonstrating that selecting training data based on Trajectory-RRI can improve a fine-tuned model's reasoning efficiency while largely preserving its task performance.",
+      "published": "2026-09-30T18:44:13Z",
+      "updated": "2026-09-30T18:44:13Z",
+      "categories": [
+        "cs.IT",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "primary_category": "cs.IT",
+      "comment": "Accepted at ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.00571v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.00571v1"
+    },
+    {
+      "id": "2609.31890v1",
+      "base_id": "2609.31890",
+      "title": "FARE: Deep Reinforcement Learning For Fair Exposure Constrained Uncertainty Aware Financial Content Personalization",
+      "authors": [
+        "Arundeep Chinta",
+        "Lucas Vinh Tran",
+        "Jay Katukuri"
+      ],
+      "abstract": "Content personalization systems in financial services must ensure fair exposure across diverse offerings-a requirement driven by contractual obligations and the need to prevent \"rich-get-richer\" dynamics where content with high click-through rate (CTR) dominates while other relevant products receive minimal visibility. Share of Voice (SOV) constraints, which guarantee each content category a target fraction of top-position exposure, address this by promoting product diversity and balanced user discovery. While re-ranking layers atop CTR models are common in practice, we propose two key novelties: (1) framing SOV-constrained ranking as a deep reinforcement learning problem analogous to constrained trade execution in algorithmic finance, and (2) explicitly incorporating CTR prediction uncertainty into the agent's state space and policy design-enabling larger ranking adjustments for high-uncertainty predictions where deviation from CTR-optimal ordering is less costly. We introduce FARE (Fair Ranking Executor), a modular uncertainty-aware execution layer that translates any black-box CTR model's predictions into SOV-fair rankings without retraining the underlying model. Our uncertainty-weighted proportional control policy (FARE-PC) and learned neural policies (FARE-ES, FARE-PPO) demonstrate that uncertainty-aware approaches can substantially reduce SOV deviation from fairness targets while minimizing engagement loss, with gradient-free evolution strategies outperforming policy gradient methods on synthetic data and the ordering reversing on KuaiRand-Pure.",
+      "published": "2026-09-25T18:26:24Z",
+      "updated": "2026-09-25T18:26:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Extended version of a paper accepted to the Advances in Financial AI: Towards Agentic and Responsible Systems Workshop at ICLR 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2609.31890v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.31890v1"
+    },
+    {
+      "id": "2609.21655v1",
+      "base_id": "2609.21655",
+      "title": "Analysing the Linearity of Linguistic Relations in Language Model Embedding Spaces",
+      "authors": [
+        "Vasudevan Nedumpozhimana",
+        "Fathima Thekkekara",
+        "John Kelleher"
+      ],
+      "abstract": "We propose a framework to analyse how strongly different linguistic relations are linearly encoded in language model embedding spaces. We formalise linear encoding via a constrained linear approximation over related and unrelated word pairs and apply this to an extended BATS dataset covering inflectional, derivational, lexicographic, and encyclopedic relations in GloVe, RoBERTa, and ModernBERT. Our experiments show near-perfect linear encodings for inflectional and derivational relations, but substantially higher errors for lexicographic and encyclopedic relations, especially for one-to-many and many-to-many associations. We also find that RoBERTa and ModernBERT generally encode relations more linearly than GloVe. These results indicate that our framework can reveal which relational structures are most linearly accessible in embeddings, offering a compact tool for probing and comparing relational geometry across models.",
+      "published": "2026-09-18T11:53:43Z",
+      "updated": "2026-09-18T11:53:43Z",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "comment": "6 pages. Accepted at the Workshop on Scientific Methods for Understanding Deep Learning (Sci4DL) at ICLR 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2609.21655v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.21655v1"
+    },
+    {
+      "id": "2608.11970v1",
+      "base_id": "2608.11970",
+      "title": "TESLA: Taylor Expansion of Sinusoidal Learnable Activations",
+      "authors": [
+        "Daehwa Ko",
+        "Jaehyeon Kim",
+        "Seunghyun Ham",
+        "Jay Hoon Jung"
+      ],
+      "abstract": "The parity problem--deciding whether the number of ones in a binary vector is odd or even--remains challenging for standard neural networks due to linear inseparability and the need for global interactions. We propose TESLA, an activation defined as a learnable combination of sine and cosine terms, enabling explicit control over polynomial degree and selective amplification of high-order components. Theoretically, we show that constraining TESLA's coefficients yields Lipschitz/Rademacher complexity bounds and shapes the training dynamics to emphasize higher-frequency structure. Empirically, on parity with input length n = 32, TESLA attains strong generalization with 100K training samples (approximately 0.002% of the 2^32 input space) and remains robust under heavy corruption, retaining high accuracy with up to 30% label noise. We also compare against periodic and frequency-based baselines (SIREN, SNAKE, and Fourier feature embeddings) on parity and Forrelation. Beyond synthetic structure, TESLA delivers comparable performance on ImageNet-100, indicating that activation-level degree control transfers to more general vision workloads. Code: https://github.com/KAU-QuantumAILab/TESLA",
+      "published": "2026-08-12T11:57:23Z",
+      "updated": "2026-08-12T11:57:23Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "15 pages, 7 figures. Accepted at AISTATS 2026",
+      "journal_ref": "Proceedings of the 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026), PMLR 300, 2026",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2608.11970v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.11970v1"
+    },
+    {
+      "id": "2608.10709v1",
+      "base_id": "2608.10709",
+      "title": "SQuaT: Self-Supervised Knowledge Distillation via Student-Aware Quantized Teacher Features",
+      "authors": [
+        "HyeonJun Lee",
+        "Hyeonsik Jo",
+        "Jinwoo Chung",
+        "Jangho Kim"
+      ],
+      "abstract": "Quantization-Aware Training (QAT) enables the deployment of quantized models with minimal accuracy degradation. However, in practical scenarios, training labels are often unavailable due to privacy, copyright, or cost constraints. Knowledge Distillation (KD) is a common approach to address this challenge, but we observe that prior work combining QAT with KD suffers from a fundamental limitation: during distillation, the range mismatch between the teacher and the quantized student model induces an unattainable residual, resulting in an irreducible lower bound on the distillation loss. Motivated by this observation, we propose SQuaT (Student-Aware Quantized Teacher Features), a label-free QAT framework with KD that theoretically eliminates this lower bound by applying the student's quantization parameters to quantize the teacher's features during distillation. Through comprehensive experiments across diverse settings, we demonstrate that SQuaT consistently outperforms strong baselines, with particularly pronounced gains in extreme low-bit (e.g., 1- and 2-bit) settings. Furthermore, extensive evaluations across various model design choices show that our approach does not rely on specific architectural assumptions, making it broadly applicable across diverse architectures and quantization settings. The source code is available at https://github.com/lcdbsa522/SQuaT.",
+      "published": "2026-08-11T09:29:30Z",
+      "updated": "2026-08-11T09:29:30Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Accepted at AISTATS 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2608.10709v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.10709v1"
+    },
+    {
+      "id": "2610.09733v1",
+      "base_id": "2610.09733",
+      "title": "Bridge Routing Heads: Where Multilingual Multi-hop Reasoning Lives in LLMs",
+      "authors": [
+        "Seunghan Kim",
+        "Minyeong Choe",
+        "Hyunil Kim",
+        "Haehyun Cho"
+      ],
+      "abstract": "Multilingual LLMs answer the same multi-hop reasoning question across languages, but we lack a mechanistic account of whether they share an internal circuit. We identify Bridge Routing Heads (BRH) in two large multilingual LLMs through a three-stage pipeline. The resulting language-specific head sets exhibit near-complete mutual exclusivity across the five languages, with a mean Jaccard similarity of only 0.017 for Llama 3.1 70B and 0.057 for Qwen 2.5 72B, revealing language-idiosyncratic circuits. Ablating general BRH increases two-hop Negative Log-Likelihood (NLL) by 39-89x the random-head baseline, providing direct causal evidence of their role. Amplifying these heads in a failing target-language pass rescues up to 51.7% of cross-lingual failures, with no training. The two models share this dual-circuit pattern but allocate heads differently: Llama concentrates chaining in a large general pool, while Qwen leans on larger language-specific pools. Together these results show that activation-level intervention alone can recover correct answers from cross-lingual reasoning failures.",
+      "published": "2026-10-07T09:28:25Z",
+      "updated": "2026-10-07T09:28:25Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "comment": "Accepted at EMNLP 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09733v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09733v1"
+    },
+    {
+      "id": "2610.09541v1",
+      "base_id": "2610.09541",
+      "title": "Certified by Abstention: Distribution-Free Guarantees for Chain-of-Thought Verifiers at Small Calibration Budgets",
+      "authors": [
+        "Arjun Balaji"
+      ],
+      "abstract": "Signals that predict whether a chain-of-thought (CoT) trace is correct are compared by AUC, but deploying one requires a threshold with a guarantee. We ask what distribution-free selective guarantees deliver for CoT verifiers at realistic calibration budgets of tens to a few hundred labelled problems, using seven open models, five verifier signals and 37,000 graded traces. The central observation is validity by abstention: an $(α,δ)$-valid procedure that issues a certificate with probability $P_{\\rm fire}$ bounds the failure probability of an issued certificate only by $δ/P_{\\rm fire}$, so a certificate that rarely fires can be valid and wrong every time it is used. In a simulation with known risk the standard certificate fails in at most 0.3% of calibration draws but in up to 69% of those in which it fires. A certification floor and a lattice condition for Benjamini-Hochberg conformal selection explain why certificates abstain at these budgets, and the data bear them out: the standard certificate returns nothing or a large accepted set, and an unreadable residual-stream probe buys two to three times the coverage of the readable signals, an edge a cross-fitted reconstruction cannot recover linearly from the readable features. We then give a floor-started fixed-sequence certificate, valid without monotonicity assumptions, that covers more than the Bonferroni certificate on every model-signal pair and raises coverage at the non-vacuous target $0.75π_0$ from 0.05 to 0.16, although the floor keeps absolute coverage small. Finally, a certificate cannot see what matters after deployment: under benchmark shift the error among accepted traces tracks the new task's base error, and under best-of-$n$ selection against the verifier it rises past the target while the empirical failure frequency stays below $δ$, because abstention absorbs the failures.",
+      "published": "2026-10-07T06:40:58Z",
+      "updated": "2026-10-07T06:40:58Z",
+      "categories": [
+        "stat.ML",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "stat.ML",
+      "comment": "22 pages, 7 figures, 12 tables. Under submission at AISTATS 2027",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09541v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09541v1"
+    },
+    {
+      "id": "2610.09489v1",
+      "base_id": "2610.09489",
+      "title": "Goldsmith: Gold-Loss-Guided Definition Optimization with an Agentic Annotation Harness",
+      "authors": [
+        "Yihan Li",
+        "Hanyi Zhang",
+        "Xiaoxi Jiang",
+        "Man Guo"
+      ],
+      "abstract": "Many annotation projects begin before experts have a stable guideline or enough labels to train a task-specific model. We present Goldsmith, an agentic pipeline that turns a small gold set---expert-annotated calibration examples representing the intended task boundaries---into a reusable structured annotation definition. Goldsmith treats this definition as a trainable textual object. Candidate definitions are run on the same gold examples and scored with an executable structured loss, while the output schema, formatting, retrieval, repair, judging, and human review remain in an external harness. A large language model (LLM) editor converts the highest-loss failures into textual-gradient revisions, which are accepted only when the measured loss decreases. In prompt-optimization comparisons, Goldsmith improves over direct rewriting, OPRO, APE, and PromptBreeder under matched evaluation protocols. The resulting definition also improves downstream annotation when combined with retrieval, score-based routing, and human review across typed span, pair-level relation, and fixed-trigger event-argument tasks. These results show that scarce expert supervision can support both task-definition learning and scalable annotation.",
+      "published": "2026-10-07T05:45:25Z",
+      "updated": "2026-10-07T05:45:25Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "comment": "20 pages, 4 figures, 11 tables. Accepted to the main conference of EMNLP 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09489v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09489v1"
+    },
+    {
+      "id": "2610.09342v1",
+      "base_id": "2610.09342",
+      "title": "Shared Low-rank Basis Factorization for Data-free Mixture-of-Experts Compression",
+      "authors": [
+        "Tianxiao Cao",
+        "Jiahe Shao",
+        "Yuning Qiu",
+        "Kyohei Atarashi",
+        "Hisashi Kashima",
+        "Qibin Zhao"
+      ],
+      "abstract": "Mixture-of-Experts (MoE) large language models decouple capacity from compute through sparse routing, but their large parameter count creates storage and serving challenges. We analyze three MoE compression families: expert pruning, expert merging, and weight reconstruction, and derive structural error bounds showing that pruning and merging can incur non-vanishing errors tied to routing and expert heterogeneity. In contrast, weight reconstruction avoids these structural costs by preserving expert structure and routing. Motivated by the analysis, we propose Shared Low-rank Basis Factorization (SLBF), a data-free weight reconstruction method that uses rank-$k$ bases shared among experts, enabling richer cross-expert sharing, faster convergence, and lower reconstruction error. A post-hoc gauge fixing removes redundant parameters at no representational cost. Across five MoE architectures spanning 16B to 122B parameters, SLBF consistently outperforms methods from all three compression families.",
+      "published": "2026-10-07T03:01:19Z",
+      "updated": "2026-10-07T03:01:19Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Accepted to Findings of EMNLP 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09342v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09342v1"
+    },
+    {
+      "id": "2610.09152v1",
+      "base_id": "2610.09152",
+      "title": "sk-bench: A Native-First Benchmark for Evaluating Large Language Models in Slovak",
+      "authors": [
+        "Marek Šuppa",
+        "Ivan Vykopal",
+        "Andrej Ridzik",
+        "Kristián Sopkovič",
+        "Natália Kňažeková",
+        "Jaroslav Kopčan",
+        "Miroslav Blšták",
+        "Viktória Ondrejová",
+        "Daniel Hládek",
+        "Michal Gregor",
+        "Martin Tamajka",
+        "Marián Šimko"
+      ],
+      "abstract": "Multilingual LLM benchmarks omit Slovak, a morphologically rich West Slavic language of five million speakers, or cover it only by machine translation. We present sk-bench, a native-first Slovak benchmark with 30 datasets (33 scored task variants) across ten skill categories. Eleven resources are introduced or first packaged for generative-LLM evaluation, including IFEval-SK with Slovak-adapted instruction checkers and native Chiby/SKJ1 resources for Slovak grammar and morphology. We evaluate 55 open- and closed-weights models under one harness. The best open model trails proprietary APIs by 12.6 points. Model rankings are similar for native and translated closed-form data ($ρ\\geq0.98$), though translation separates the strongest models less well. By contrast, human-authored and LLM-generated QA questions rank models differently ($ρ=0.72$). For Qwen3-14B, continued Slovak pretraining lowers the overall score by 13.9 points. A small instruction set restores three quarters of that loss. Test-time reasoning improves scores by 8.5 to 12.5 points for models of 9B and above. Together, these findings suggest four design lessons for other under-resourced languages: use native data where translation fails, plan instruction repair after language adaptation, enable test-time reasoning before scaling up, and avoid overinvesting in target-language prompts. We release the data and code at https://github.com/slovak-nlp/sk-bench",
+      "published": "2026-10-06T21:51:22Z",
+      "updated": "2026-10-06T21:51:22Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "comment": "Accepted to EMNLP 2026 Main",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09152v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09152v1"
+    },
+    {
+      "id": "2610.09124v1",
+      "base_id": "2610.09124",
+      "title": "Spatial Induction Heads: In-Context Learning of Multidimensional Cellular Automata",
+      "authors": [
+        "Kimia Kazemian",
+        "Menghan Xu",
+        "John Thickstun",
+        "Sarah Dean"
+      ],
+      "abstract": "Induction heads provide a mechanistic account of in-context learning in sequential data, but existing theory largely assumes that the context relevant to a prediction forms a contiguous block. In multidimensional data, serialization breaks this assumption by scattering spatial neighbors across distant positions in the token sequence. We study how transformers overcome this routing problem in multidimensional stochastic and deterministic cellular automata, where each trajectory is generated by an unknown local rule and presented as a flattened sequence without an explicit coordinate-based spatial inductive bias. We introduce spatial induction heads, two-layer gather-and-match circuits in which the first layer reconstructs the relevant spatial neighborhood and the second matches the resulting configuration against earlier occurrences. We give two explicit realizations of the gather and show that the positional dimension required for spatial routing depends only on the local neighborhood and spatial dimension, not on grid volume or trajectory horizon. We further construct a matching layer which implements Bayesian counting. The end-to-end circuit can approximate the Bayesian posterior arbitrarily closely for stochastic rules and can predict exactly for deterministic rules. Empirically, trained two-layer transformers generalize to unseen rules in one and two dimensional settings, achieving near-perfect deterministic rollouts and less than 0.005 nats KL from the Bayes-optimal predictor on stochastic rules. Attention patterns and layerwise probes align with the predicted gather-and-match computation, providing mechanistic evidence for spatial induction in trained transformers.",
+      "published": "2026-10-06T21:16:24Z",
+      "updated": "2026-10-06T21:16:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Under review at ICLR 2027. Project page: https://kimzemian.github.io/spatial-induction-heads/",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2610.09124v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.09124v1"
+    },
+    {
+      "id": "2103.00020v1",
+      "base_id": "2103.00020",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "authors": [
+        "Alec Radford",
+        "Jong Wook Kim",
+        "Chris Hallacy",
+        "Aditya Ramesh",
+        "Gabriel Goh",
+        "Sandhini Agarwal",
+        "Girish Sastry",
+        "Amanda Askell",
+        "Pamela Mishkin",
+        "Jack Clark",
+        "Gretchen Krueger",
+        "Ilya Sutskever"
+      ],
+      "abstract": "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at https://github.com/OpenAI/CLIP.",
+      "published": "2021-02-26T19:04:58Z",
+      "updated": "2021-02-26T19:04:58Z",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "comment": "",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2103.00020v1",
+      "pdf_url": "https://arxiv.org/pdf/2103.00020v1"
+    },
+    {
+      "id": "2608.02455v1",
+      "base_id": "2608.02455",
+      "title": "Aggregate-then-Calibrate for Human-centered Assessment with Theoretical Guarantees",
+      "authors": [
+        "Zejun Xie",
+        "Xintong Li",
+        "Guang Wang",
+        "Desheng Zhang"
+      ],
+      "abstract": "Human-centered assessment tasks, which are essential for systematic decision-making, rely heavily on human judgment and typically lack verifiable ground truth. Existing approaches face a dilemma: methods using only human judgments suffer from heterogeneous expertise and inconsistent rating scales, while methods using only model-generated scores must learn from imperfect proxies or incomplete features. We propose Aggregate-then-Calibrate (AtC), a two-stage framework that combines these complementary sources. Stage-1 aggregates heterogeneous comparative judgments into a consensus ranking using a rank-aggregation model that accounts for annotator reliability. Stage-2 calibrates any predictive model's scores by an isotonic projection onto the order, enforcing ordinal consistency while preserving as much of the model's quantitative information as possible. Theoretically, we show: (1) modeling annotator heterogeneity yields strictly more efficient consensus estimation than homogeneity; (2) isotonic calibration enjoys risk bounds even when the consensus ranking is misspecified; and (3) AtC asymptotically outperforms model-only assessment. Across semi-synthetic and real-world datasets, AtC consistently improves accuracy and robustness over human-only or model-only assessments. Our results bridge judgment aggregation with model-free calibration, providing a principled recipe for human-centered assessment when ground truth is costly, scarce, or unverifiable.",
+      "published": "2026-08-03T16:30:30Z",
+      "updated": "2026-08-03T16:30:30Z",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "comment": "Accepted by ICLR 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2608.02455v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02455v1"
+    },
+    {
+      "id": "2607.26723v1",
+      "base_id": "2607.26723",
+      "title": "FARI: Robust One-Step Inversion for Watermarking in Diffusion Models",
+      "authors": [
+        "Jindong Yang",
+        "Han Fang",
+        "Weiming Zhang",
+        "Nenghai Yu",
+        "Kejiang Chen"
+      ],
+      "abstract": "Inversion-based watermarking is a promising approach to authenticate diffusion-generated images, yet practical use is bottlenecked by inversion that is both slow and error-prone. While the primary challenge in the watermarking setting is robustness against external distortions, existing approaches over-optimize internal truncation error, and because that error scales with the sampler step size, they are inherently confined to high-NFE (number of function evaluations) regimes that cannot meet the dual demands of speed and robustness. In this work, we have two key observations: (i) the inversion trajectory has markedly lower curvature than the forward generation path does, making it highly compressible and amenable to low-NFE approximation; and (ii) in inversion for watermark verification, the trade-off between speed and truncation error is less critical, since external distortions dominate the error. A faster inverter provides a dual benefit: it is not only more efficient, but it also enables end-to-end adversarial training to directly target robustness, a task that is computationally prohibitive for the original, lengthy inversion trajectories. Building on this, we propose \\textbf{FARI} (\\textbf{F}ast \\textbf{A}symmetric \\textbf{R}obust \\textbf{I}nversion), a one-step inversion framework paired with lightweight adversarial LoRA fine-tuning of the denoiser for watermark extraction. While consolidation slightly increases internal error, FARI delivers large gains in both speed and robustness: with approximately 20 minutes of fine-tuning on a single NVIDIA RTX A6000 GPU, it surpasses 50-step DDIM inversion on watermark-verification robustness while dramatically reducing inference time. Code and pretrained models are available at https://github.com/0xD009/FARI.",
+      "published": "2026-07-29T10:13:55Z",
+      "updated": "2026-07-29T10:13:55Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "comment": "Accepted by ICLR 2026",
+      "journal_ref": "",
+      "doi": "",
+      "abstract_url": "https://arxiv.org/abs/2607.26723v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26723v1"
+    }
+  ]
+}

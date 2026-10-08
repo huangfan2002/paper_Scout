@@ -1,0 +1,4 @@
+{
+  "api_key": "",
+  "instructions": "复制为 scholar.local.json，仅在本机填写 SerpApi Key；也可以设置 SERPAPI_API_KEY 环境变量。"
+}

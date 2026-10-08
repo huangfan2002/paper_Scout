@@ -1,0 +1,748 @@
+{
+  "metadata": {
+    "version": "2026-10-08",
+    "major_source": "https://github.com/ccfddl/ccf-deadlines/blob/main/conference/types.yml",
+    "reference_commit": "7c189b2a8281a67c2d1adbcd3326dfa9e9c5236b",
+    "note": "大方向对齐 CCFDDL 的十个 CCF 学科；小方向是本 demo 按研究主题整理的可编辑导航，不是 CCF 或 CCFDDL 官方细分。跨领域会议采用一个主方向，分组不改变官方等级。"
+  },
+  "majors": [
+    {
+      "id": "AI",
+      "name": "人工智能",
+      "domain": "人工智能",
+      "subfields": [
+        {
+          "id": "AI:ml",
+          "name": "机器学习与统计学习",
+          "venue_ids": [
+            "ccf-08-a-02",
+            "ccf-08-a-06",
+            "ccf-08-a-07",
+            "ccf-08-b-01",
+            "ccf-08-b-10",
+            "ccf-08-c-01",
+            "ccf-08-c-03",
+            "ccf-08-c-10",
+            "ccf-08-c-11",
+            "ccf-08-c-16",
+            "ccf-08-c-19"
+          ]
+        },
+        {
+          "id": "AI:nlp",
+          "name": "自然语言处理",
+          "venue_ids": [
+            "ccf-08-a-03",
+            "ccf-08-b-02",
+            "ccf-08-b-08",
+            "ccf-08-b-13",
+            "ccf-08-c-05",
+            "ccf-08-c-06"
+          ]
+        },
+        {
+          "id": "AI:vision",
+          "name": "计算机视觉与模式识别",
+          "venue_ids": [
+            "ccf-08-a-04",
+            "ccf-08-a-05",
+            "ccf-08-b-04",
+            "ccf-08-c-02",
+            "ccf-08-c-04",
+            "ccf-08-c-12",
+            "ccf-08-c-13",
+            "ccf-08-c-17",
+            "ccf-08-c-18"
+          ]
+        },
+        {
+          "id": "AI:robotics",
+          "name": "机器人与多智能体",
+          "venue_ids": [
+            "ccf-08-b-05",
+            "ccf-08-c-09",
+            "ccf-08-b-11",
+            "ccf-08-c-22"
+          ]
+        },
+        {
+          "id": "AI:reasoning",
+          "name": "知识表示、推理与规划",
+          "venue_ids": [
+            "ccf-08-b-06",
+            "ccf-08-b-07",
+            "ccf-08-b-09",
+            "ccf-08-c-14",
+            "ccf-08-c-15"
+          ]
+        },
+        {
+          "id": "AI:evolution",
+          "name": "演化计算与优化",
+          "venue_ids": [
+            "ccf-08-b-12",
+            "ccf-08-c-07",
+            "ccf-08-c-21"
+          ]
+        },
+        {
+          "id": "AI:general",
+          "name": "人工智能综合",
+          "venue_ids": [
+            "ccf-08-a-01",
+            "ccf-08-b-03",
+            "ccf-08-b-14",
+            "ccf-08-c-08",
+            "ccf-08-c-20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SC",
+      "name": "网络与信息安全",
+      "domain": "网络与信息安全",
+      "subfields": [
+        {
+          "id": "SC:crypto",
+          "name": "密码学",
+          "venue_ids": [
+            "ccf-03-a-02",
+            "ccf-03-a-04",
+            "ccf-03-b-02",
+            "ccf-03-b-04",
+            "ccf-03-b-07",
+            "ccf-03-b-10",
+            "ccf-03-b-11",
+            "ccf-03-c-08",
+            "ccf-03-c-22",
+            "ccf-03-c-26"
+          ]
+        },
+        {
+          "id": "SC:systems",
+          "name": "系统与网络安全",
+          "venue_ids": [
+            "ccf-03-a-01",
+            "ccf-03-a-03",
+            "ccf-03-a-05",
+            "ccf-03-a-06",
+            "ccf-03-b-01",
+            "ccf-03-b-03",
+            "ccf-03-c-01",
+            "ccf-03-c-05",
+            "ccf-03-c-06",
+            "ccf-03-c-07",
+            "ccf-03-c-13",
+            "ccf-03-c-15",
+            "ccf-03-c-17",
+            "ccf-03-c-18",
+            "ccf-03-c-19",
+            "ccf-03-c-24",
+            "ccf-03-c-25",
+            "ccf-03-c-29"
+          ]
+        },
+        {
+          "id": "SC:privacy",
+          "name": "隐私、访问控制与数据安全",
+          "venue_ids": [
+            "ccf-03-c-02",
+            "ccf-03-c-03",
+            "ccf-03-c-04",
+            "ccf-03-c-21",
+            "ccf-03-c-23",
+            "ccf-03-c-27"
+          ]
+        },
+        {
+          "id": "SC:dependability",
+          "name": "可信计算与可靠性",
+          "venue_ids": [
+            "ccf-03-b-05",
+            "ccf-03-b-06",
+            "ccf-03-b-08",
+            "ccf-03-c-12"
+          ]
+        },
+        {
+          "id": "SC:forensics",
+          "name": "攻防检测与数字取证",
+          "venue_ids": [
+            "ccf-03-b-09",
+            "ccf-03-c-09",
+            "ccf-03-c-10",
+            "ccf-03-c-14",
+            "ccf-03-c-16",
+            "ccf-03-c-20"
+          ]
+        },
+        {
+          "id": "SC:blockchain",
+          "name": "区块链与金融安全",
+          "venue_ids": [
+            "ccf-03-c-11",
+            "ccf-03-c-28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DS",
+      "name": "体系结构与系统",
+      "domain": "计算机体系结构/并行与分布计算/存储系统",
+      "subfields": [
+        {
+          "id": "DS:architecture",
+          "name": "处理器与体系结构",
+          "venue_ids": [
+            "ccf-01-a-04",
+            "ccf-01-a-05",
+            "ccf-01-a-07",
+            "ccf-01-a-08",
+            "ccf-01-b-07",
+            "ccf-01-b-09",
+            "ccf-01-b-13",
+            "ccf-01-c-01",
+            "ccf-01-c-03",
+            "ccf-01-c-04",
+            "ccf-01-c-23",
+            "ccf-01-c-30"
+          ]
+        },
+        {
+          "id": "DS:parallel",
+          "name": "并行计算与高性能计算",
+          "venue_ids": [
+            "ccf-01-a-01",
+            "ccf-01-a-06",
+            "ccf-01-a-11",
+            "ccf-01-b-02",
+            "ccf-01-b-08",
+            "ccf-01-b-15",
+            "ccf-01-b-16",
+            "ccf-01-b-17",
+            "ccf-01-b-19",
+            "ccf-01-b-25",
+            "ccf-01-c-11",
+            "ccf-01-c-12",
+            "ccf-01-c-14",
+            "ccf-01-c-16",
+            "ccf-01-c-17",
+            "ccf-01-c-20",
+            "ccf-01-c-29"
+          ]
+        },
+        {
+          "id": "DS:distributed",
+          "name": "分布式、云与边缘计算",
+          "venue_ids": [
+            "ccf-01-b-01",
+            "ccf-01-b-03",
+            "ccf-01-b-11",
+            "ccf-01-c-15",
+            "ccf-01-c-26"
+          ]
+        },
+        {
+          "id": "DS:storage",
+          "name": "存储与系统管理",
+          "venue_ids": [
+            "ccf-01-a-02",
+            "ccf-01-a-09",
+            "ccf-01-a-10",
+            "ccf-01-b-22",
+            "ccf-01-b-23",
+            "ccf-01-c-02",
+            "ccf-01-c-27",
+            "ccf-01-c-28"
+          ]
+        },
+        {
+          "id": "DS:hardware",
+          "name": "芯片设计与可重构计算",
+          "venue_ids": [
+            "ccf-01-a-03",
+            "ccf-01-b-04",
+            "ccf-01-b-06",
+            "ccf-01-b-10",
+            "ccf-01-b-12",
+            "ccf-01-b-21",
+            "ccf-01-b-26",
+            "ccf-01-c-05",
+            "ccf-01-c-06",
+            "ccf-01-c-07",
+            "ccf-01-c-08",
+            "ccf-01-c-09",
+            "ccf-01-c-10",
+            "ccf-01-c-19",
+            "ccf-01-c-21",
+            "ccf-01-c-22",
+            "ccf-01-c-24",
+            "ccf-01-c-25"
+          ]
+        },
+        {
+          "id": "DS:runtime",
+          "name": "编译、实时与性能分析",
+          "venue_ids": [
+            "ccf-01-b-05",
+            "ccf-01-b-14",
+            "ccf-01-b-18",
+            "ccf-01-b-20",
+            "ccf-01-b-24",
+            "ccf-01-c-13",
+            "ccf-01-c-18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NW",
+      "name": "计算机网络",
+      "domain": "计算机网络",
+      "subfields": [
+        {
+          "id": "NW:systems",
+          "name": "网络体系结构与协议",
+          "venue_ids": [
+            "ccf-02-a-01",
+            "ccf-02-a-03",
+            "ccf-02-a-04",
+            "ccf-02-b-02",
+            "ccf-02-b-06",
+            "ccf-02-c-01",
+            "ccf-02-c-03",
+            "ccf-02-c-04",
+            "ccf-02-c-07",
+            "ccf-02-c-09",
+            "ccf-02-c-10",
+            "ccf-02-c-12",
+            "ccf-02-c-14",
+            "ccf-02-c-19",
+            "ccf-02-c-20"
+          ]
+        },
+        {
+          "id": "NW:mobile",
+          "name": "移动、无线与传感网络",
+          "venue_ids": [
+            "ccf-02-a-02",
+            "ccf-02-b-01",
+            "ccf-02-b-03",
+            "ccf-02-b-04",
+            "ccf-02-b-05",
+            "ccf-02-b-07",
+            "ccf-02-c-08",
+            "ccf-02-c-11",
+            "ccf-02-c-13",
+            "ccf-02-c-16",
+            "ccf-02-c-17",
+            "ccf-02-c-18"
+          ]
+        },
+        {
+          "id": "NW:measurement",
+          "name": "网络测量、管理与服务质量",
+          "venue_ids": [
+            "ccf-02-b-09",
+            "ccf-02-b-10",
+            "ccf-02-c-02",
+            "ccf-02-c-15"
+          ]
+        },
+        {
+          "id": "NW:communications",
+          "name": "通信与多媒体网络",
+          "venue_ids": [
+            "ccf-02-b-08",
+            "ccf-02-c-05",
+            "ccf-02-c-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SE",
+      "name": "软件工程与语言",
+      "domain": "软件工程/系统软件/程序设计语言",
+      "subfields": [
+        {
+          "id": "SE:engineering",
+          "name": "软件工程与需求",
+          "venue_ids": [
+            "ccf-04-a-03",
+            "ccf-04-a-06",
+            "ccf-04-a-07",
+            "ccf-04-b-03",
+            "ccf-04-b-04",
+            "ccf-04-b-05",
+            "ccf-04-b-08",
+            "ccf-04-b-11",
+            "ccf-04-b-12",
+            "ccf-04-b-17",
+            "ccf-04-c-04",
+            "ccf-04-c-05",
+            "ccf-04-c-06",
+            "ccf-04-c-10",
+            "ccf-04-c-13",
+            "ccf-04-c-14",
+            "ccf-04-c-16",
+            "ccf-04-c-22",
+            "ccf-04-c-23",
+            "ccf-04-c-24",
+            "ccf-04-c-25"
+          ]
+        },
+        {
+          "id": "SE:language",
+          "name": "程序设计语言与编译",
+          "venue_ids": [
+            "ccf-04-a-01",
+            "ccf-04-a-02",
+            "ccf-04-a-05",
+            "ccf-04-b-01",
+            "ccf-04-b-06",
+            "ccf-04-b-07",
+            "ccf-04-b-16",
+            "ccf-04-b-20",
+            "ccf-04-c-01",
+            "ccf-04-c-02",
+            "ccf-04-c-03",
+            "ccf-04-c-09",
+            "ccf-04-c-20"
+          ]
+        },
+        {
+          "id": "SE:systems",
+          "name": "操作系统与性能",
+          "venue_ids": [
+            "ccf-04-a-04",
+            "ccf-04-a-09",
+            "ccf-04-b-19",
+            "ccf-04-c-08"
+          ]
+        },
+        {
+          "id": "SE:verification",
+          "name": "形式化方法、测试与可靠性",
+          "venue_ids": [
+            "ccf-04-a-08",
+            "ccf-04-a-10",
+            "ccf-04-b-02",
+            "ccf-04-b-09",
+            "ccf-04-b-13",
+            "ccf-04-b-18",
+            "ccf-04-c-07",
+            "ccf-04-c-11",
+            "ccf-04-c-15",
+            "ccf-04-c-18",
+            "ccf-04-c-19",
+            "ccf-04-c-21",
+            "ccf-04-c-26",
+            "ccf-04-c-27"
+          ]
+        },
+        {
+          "id": "SE:services",
+          "name": "服务计算与中间件",
+          "venue_ids": [
+            "ccf-04-b-10",
+            "ccf-04-b-14",
+            "ccf-04-b-15",
+            "ccf-04-c-12",
+            "ccf-04-c-17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DB",
+      "name": "数据管理与检索",
+      "domain": "数据库/数据挖掘/内容检索",
+      "subfields": [
+        {
+          "id": "DB:database",
+          "name": "数据库与数据管理",
+          "venue_ids": [
+            "ccf-05-a-01",
+            "ccf-05-a-03",
+            "ccf-05-a-05",
+            "ccf-05-b-03",
+            "ccf-05-b-04",
+            "ccf-05-b-08",
+            "ccf-05-b-09",
+            "ccf-05-b-10",
+            "ccf-05-c-02",
+            "ccf-05-c-06",
+            "ccf-05-c-07",
+            "ccf-05-c-08",
+            "ccf-05-c-09",
+            "ccf-05-c-10",
+            "ccf-05-c-13"
+          ]
+        },
+        {
+          "id": "DB:mining",
+          "name": "数据挖掘与知识发现",
+          "venue_ids": [
+            "ccf-05-a-02",
+            "ccf-05-b-05",
+            "ccf-05-b-07",
+            "ccf-05-b-11",
+            "ccf-05-c-11",
+            "ccf-05-c-12"
+          ]
+        },
+        {
+          "id": "DB:retrieval",
+          "name": "信息检索与推荐",
+          "venue_ids": [
+            "ccf-05-a-04",
+            "ccf-05-b-01",
+            "ccf-05-b-02",
+            "ccf-05-b-12",
+            "ccf-05-c-03"
+          ]
+        },
+        {
+          "id": "DB:web",
+          "name": "语义网与 Web 数据",
+          "venue_ids": [
+            "ccf-05-b-06",
+            "ccf-05-b-13",
+            "ccf-05-c-01",
+            "ccf-05-c-04",
+            "ccf-05-c-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CT",
+      "name": "计算机科学理论",
+      "domain": "计算机科学理论",
+      "subfields": [
+        {
+          "id": "CT:algorithms",
+          "name": "算法、复杂性与优化",
+          "venue_ids": [
+            "ccf-06-a-01",
+            "ccf-06-a-02",
+            "ccf-06-a-04",
+            "ccf-06-b-01",
+            "ccf-06-b-02",
+            "ccf-06-b-03",
+            "ccf-06-b-04",
+            "ccf-06-b-09",
+            "ccf-06-c-02",
+            "ccf-06-c-03",
+            "ccf-06-c-05",
+            "ccf-06-c-07",
+            "ccf-06-c-08",
+            "ccf-06-c-09"
+          ]
+        },
+        {
+          "id": "CT:logic",
+          "name": "逻辑、语义与自动推理",
+          "venue_ids": [
+            "ccf-06-a-05",
+            "ccf-06-b-05",
+            "ccf-06-b-06",
+            "ccf-06-b-08",
+            "ccf-06-c-01",
+            "ccf-06-c-06"
+          ]
+        },
+        {
+          "id": "CT:verification",
+          "name": "形式化验证与混合系统",
+          "venue_ids": [
+            "ccf-06-a-03",
+            "ccf-06-b-07",
+            "ccf-06-b-10",
+            "ccf-06-c-04",
+            "ccf-06-c-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG",
+      "name": "图形学与多媒体",
+      "domain": "计算机图形学与多媒体",
+      "subfields": [
+        {
+          "id": "CG:graphics",
+          "name": "图形学、几何与渲染",
+          "venue_ids": [
+            "ccf-07-a-02",
+            "ccf-07-b-02",
+            "ccf-07-b-03",
+            "ccf-07-b-05",
+            "ccf-07-b-07",
+            "ccf-07-b-08",
+            "ccf-07-b-12",
+            "ccf-07-b-13",
+            "ccf-07-c-03",
+            "ccf-07-c-04",
+            "ccf-07-c-07",
+            "ccf-07-c-11",
+            "ccf-07-c-12"
+          ]
+        },
+        {
+          "id": "CG:multimedia",
+          "name": "多媒体、图像与检索",
+          "venue_ids": [
+            "ccf-07-a-01",
+            "ccf-07-b-01",
+            "ccf-07-b-04",
+            "ccf-07-b-10",
+            "ccf-07-c-06",
+            "ccf-07-c-08",
+            "ccf-07-c-09",
+            "ccf-07-c-10",
+            "ccf-07-c-13",
+            "ccf-07-c-14"
+          ]
+        },
+        {
+          "id": "CG:visualization",
+          "name": "可视化",
+          "venue_ids": [
+            "ccf-07-a-04",
+            "ccf-07-b-06",
+            "ccf-07-c-05"
+          ]
+        },
+        {
+          "id": "CG:xr",
+          "name": "虚拟现实与增强现实",
+          "venue_ids": [
+            "ccf-07-a-03",
+            "ccf-07-b-11",
+            "ccf-07-c-01",
+            "ccf-07-c-02"
+          ]
+        },
+        {
+          "id": "CG:speech",
+          "name": "语音与信号处理",
+          "venue_ids": [
+            "ccf-07-b-09",
+            "ccf-07-b-14",
+            "ccf-07-c-15",
+            "ccf-07-c-16",
+            "ccf-07-c-17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HI",
+      "name": "人机交互与普适计算",
+      "domain": "人机交互与普适计算",
+      "subfields": [
+        {
+          "id": "HI:interaction",
+          "name": "交互设计与用户界面",
+          "venue_ids": [
+            "ccf-09-a-02",
+            "ccf-09-a-04",
+            "ccf-09-b-02",
+            "ccf-09-b-03",
+            "ccf-09-b-06",
+            "ccf-09-c-01",
+            "ccf-09-c-02",
+            "ccf-09-c-03",
+            "ccf-09-c-04",
+            "ccf-09-c-06",
+            "ccf-09-c-07",
+            "ccf-09-c-08",
+            "ccf-09-c-13",
+            "ccf-09-c-15"
+          ]
+        },
+        {
+          "id": "HI:ubiquitous",
+          "name": "普适、移动与物联网",
+          "venue_ids": [
+            "ccf-09-a-03",
+            "ccf-09-b-05",
+            "ccf-09-c-05",
+            "ccf-09-c-12",
+            "ccf-09-c-14"
+          ]
+        },
+        {
+          "id": "HI:social",
+          "name": "协同与社会计算",
+          "venue_ids": [
+            "ccf-09-a-01",
+            "ccf-09-b-01",
+            "ccf-09-b-04",
+            "ccf-09-b-07",
+            "ccf-09-c-09",
+            "ccf-09-c-10",
+            "ccf-09-c-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MX",
+      "name": "交叉与新兴领域",
+      "domain": "交叉/综合/新兴",
+      "subfields": [
+        {
+          "id": "MX:health",
+          "name": "生物信息、医学与认知",
+          "venue_ids": [
+            "ccf-10-b-01",
+            "ccf-10-b-02",
+            "ccf-10-b-04",
+            "ccf-10-b-05",
+            "ccf-10-b-06",
+            "ccf-10-c-01",
+            "ccf-10-c-02",
+            "ccf-10-c-07"
+          ]
+        },
+        {
+          "id": "MX:systems",
+          "name": "实时、嵌入式与云计算",
+          "venue_ids": [
+            "ccf-10-a-02",
+            "ccf-10-b-03",
+            "ccf-10-c-04",
+            "ccf-10-c-05",
+            "ccf-10-c-10",
+            "ccf-10-c-11"
+          ]
+        },
+        {
+          "id": "MX:web",
+          "name": "Web、大数据与空间计算",
+          "venue_ids": [
+            "ccf-10-a-01",
+            "ccf-10-c-03",
+            "ccf-10-c-06",
+            "ccf-10-c-09"
+          ]
+        },
+        {
+          "id": "MX:economics",
+          "name": "博弈、经济与金融计算",
+          "venue_ids": [
+            "ccf-10-b-07",
+            "ccf-10-c-08",
+            "ccf-10-c-12",
+            "ccf-10-c-13"
+          ]
+        }
+      ]
+    }
+  ]
+}

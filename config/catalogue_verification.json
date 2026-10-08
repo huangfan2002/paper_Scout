@@ -1,0 +1,13 @@
+{
+  "source_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+  "verified_conferences": 386,
+  "counts": {
+    "A": 58,
+    "B": 132,
+    "C": 196
+  },
+  "pdf_pages": 72,
+  "checked_on": "2026-10-08",
+  "mismatches": [],
+  "notes": "AsiaCCS 的官方旧参考 URL 与 CCS 相同；运行用 DBLP key 单独映射为 asiaccs。"
+}

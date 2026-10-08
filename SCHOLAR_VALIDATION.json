@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-08",
+  "version": "1.1.0",
+  "tests": {
+    "passed": 79,
+    "failed": 0
+  },
+  "browser_json_import": {
+    "status": "passed",
+    "records": 2,
+    "source": "historical official documentation example"
+  },
+  "browser_csv_export": {
+    "status": "passed",
+    "records": 2,
+    "bytes": 1456
+  },
+  "browser_year_query": {
+    "status": "passed",
+    "year_from": "2024",
+    "year_to": "2026"
+  },
+  "browser_detail_links": {
+    "status": "passed",
+    "links": [
+      "publication",
+      "Google Scholar",
+      "cited by",
+      "related",
+      "versions"
+    ]
+  },
+  "saved_html_parser": {
+    "status": "passed",
+    "evidence": "synthetic saved-page regression test"
+  },
+  "serpapi_live_search": {
+    "status": "not_run",
+    "reason": "No API key configured by user"
+  },
+  "serpapi_contract_and_cache": {
+    "status": "passed",
+    "evidence": "mocked transport and local HTTP tests"
+  },
+  "google_live_page_results": {
+    "status": "unverified",
+    "reason": "Browser page-content read timed out"
+  },
+  "health": {
+    "status": "ok",
+    "version": "1.1.0"
+  }
+}

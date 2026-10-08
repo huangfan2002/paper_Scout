@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/*
+!data/.gitkeep
+downloads/*
+!downloads/.gitkeep
+exports/
+*.part
+config/scholar.local.json

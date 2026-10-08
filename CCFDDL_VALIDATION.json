@@ -1,0 +1,68 @@
+{
+  "verified_at": "2026-10-08T07:41:06.892352+00:00",
+  "health": {
+    "status": "ok",
+    "version": "1.2.0"
+  },
+  "tests": {
+    "full_suite": 105,
+    "passed": true,
+    "seconds": 77.497,
+    "followup_deadline_suite": 24,
+    "followup_passed": true
+  },
+  "catalogue": {
+    "conferences": 386,
+    "counts": {
+      "A": 58,
+      "B": 132,
+      "C": 196
+    },
+    "majors": 10,
+    "subfields": 47,
+    "unique_assignments": true
+  },
+  "sync": {
+    "fetched_at": "2026-10-08T07:34:00.523996+00:00",
+    "source_url": "https://ccfddl.com/conference/allconf.json",
+    "sha256": "3b6263d8da3bd57ad9e8063a02d3f289d663bc06f70f397c974e78465064185e",
+    "license": "MIT",
+    "repository": "https://github.com/ccfddl/ccf-deadlines",
+    "venue_count": 374,
+    "edition_count": 2301,
+    "matched_venues": 329,
+    "unmatched_venues": 45,
+    "rank_differences": [
+      {
+        "key": "SC/asiaccs",
+        "ccfddl": "C",
+        "ccf_2026": "A"
+      }
+    ],
+    "time_warnings": [],
+    "cache": "updated",
+    "warning": "",
+    "grade_policy": "等级按已匹配的 CCF 2026 目录；未匹配会议显示为未收录。"
+  },
+  "api_checks": {
+    "vision_A_upcoming": 2,
+    "cvpr_next_utc": "2026-11-17T11:59:59Z",
+    "iccv_status": "tbd",
+    "fse_identity_separated": true,
+    "asiaccs_uses_ccf2026_A": true,
+    "cli_multiple_ranks": true
+  },
+  "browser_checks": [
+    "目录 AI → 机器学习 → A，仅显示 NeurIPS/ICML/ICLR",
+    "方向会议可带入 Scholar 筛选，无 Key 仍保留浏览器导入路径",
+    "单会议 ICLR 带入文献筛选并同步 AI:ml 小方向",
+    "真实 CCFDDL 同步完成并持久保存",
+    "AI → 视觉 → A，显示 CVPR 已公布日期及 ICCV TBD"
+  ],
+  "limitations": [
+    "小方向是本 demo 的可编辑研究导航，非官方细分",
+    "社区截止日期未逐一向所有会议主办方核验",
+    "45 个上游会议未匹配 CCF 2026 目录",
+    "SerpApi 未配置 Key，自动 Scholar 检索仅完成模拟验证"
+  ]
+}
